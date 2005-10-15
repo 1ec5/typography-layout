@@ -1,0 +1,3773 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--
+
+Typography Keyboard Layout - advanced, intuitive glyph input for Mac OS X
+Copyright (C) 2005 Morgan Doocy <morgan@doocy.net>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+Changelog
+=========
+1.0    - Initial release. (2005-10-16)
+
+-->
+<keyboard group="126" id="-28675" name="Typography" maxout="4">
+	<layouts>
+		<layout first="0" last="17" modifiers="commonModifiers" mapSet="ANSI" />
+	</layouts>
+	<modifierMap id="commonModifiers" defaultIndex="0">
+		<keyMapSelect mapIndex="0">
+			<modifier keys="" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="1">
+			<modifier keys="anyShift caps?" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="2">
+			<modifier keys="caps" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="3">
+			<modifier keys="anyOption" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyShift caps? anyOption" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="caps anyOption" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="6">
+			<modifier keys="command anyShift? caps? anyOption? anyControl?" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="7">
+			<modifier keys="anyShift? caps? anyOption? anyControl" />
+		</keyMapSelect>
+	</modifierMap>
+	<keyMapSet id="ANSI">
+		<keyMap index="0">
+			<key code="0" action="a" />
+			<key code="1" action="s" />
+			<key code="2" action="d" />
+			<key code="3" action="f" />
+			<key code="4" action="h" />
+			<key code="5" action="g" />
+			<key code="6" action="z" />
+			<key code="7" action="x" />
+			<key code="8" action="c" />
+			<key code="9" action="v" />
+			<key code="10" output="&#xA7;" />
+			<key code="11" action="b" />
+			<key code="12" action="q" />
+			<key code="13" action="w" />
+			<key code="14" action="e" />
+			<key code="15" action="r" />
+			<key code="16" action="y" />
+			<key code="17" action="t" />
+			<key code="18" action="1" />
+			<key code="19" action="2" />
+			<key code="20" action="3" />
+			<key code="21" action="4" />
+			<key code="22" action="6" />
+			<key code="23" action="5" />
+			<key code="24" action="equals" />
+			<key code="25" action="9" />
+			<key code="26" action="7" />
+			<key code="27" action="hyphen" />
+			<key code="28" action="8" />
+			<key code="29" action="0" />
+			<key code="30" action="right_bracket" />
+			<key code="31" action="o" />
+			<key code="32" action="u" />
+			<key code="33" action="left_bracket" />
+			<key code="34" action="i" />
+			<key code="35" action="p" />
+			<key code="36" output="&#xD;" />
+			<key code="37" action="l" />
+			<key code="38" action="j" />
+			<key code="39" action="quote" />
+			<key code="40" action="k" />
+			<key code="41" action="semicolon" />
+			<key code="42" action="backslash" />
+			<key code="43" action="comma" />
+			<key code="44" action="forward_slash" />
+			<key code="45" action="n" />
+			<key code="46" action="m" />
+			<key code="47" action="period" />
+			<key code="48" output="&#x9;" />
+			<key code="49" action="space" />
+			<key code="50" action="backtick" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<!-- gap, 54-64 -->
+			<key code="65" output="." />
+			<key code="66" output="&#x1D;" />
+			<key code="67" action="num_asterisk" />
+			<!-- gap, 68 -->
+			<key code="69" action="num_plus" />
+			<key code="70" output="&#x1C;" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="&#x1F;" />
+			<!-- gap, 73-74 -->
+			<key code="75" action="num_slash" />
+			<key code="76" output="&#x3;" />
+			<key code="77" output="&#x1E;" />
+			<key code="78" action="num_minus" />
+			<!-- gap, 79-80 -->
+			<key code="81" action="num_equals" />
+			<key code="82" action="num_0" />
+			<key code="83" action="num_1" />
+			<key code="84" action="num_2" />
+			<key code="85" action="num_3" />
+			<key code="86" action="num_4" />
+			<key code="87" action="num_5" />
+			<key code="88" action="num_6" />
+			<key code="89" action="num_7" />
+			<!-- gap, 90 -->
+			<key code="91" action="num_8" />
+			<key code="92" action="num_9" />
+			<!-- gap, 93-94 -->
+			<key code="95" output="," />
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" action="space" />
+			<key code="103" output="&#x10;" />
+			<key code="104" action="space" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+		<keyMap index="1">
+			<key code="0" action="A" />
+			<key code="1" action="S" />
+			<key code="2" action="D" />
+			<key code="3" action="F" />
+			<key code="4" action="H" />
+			<key code="5" action="G" />
+			<key code="6" action="Z" />
+			<key code="7" action="X" />
+			<key code="8" action="C" />
+			<key code="9" action="V" />
+			<key code="10" output="&#xB1;" />
+			<key code="11" action="B" />
+			<key code="12" action="Q" />
+			<key code="13" action="W" />
+			<key code="14" action="E" />
+			<key code="15" action="R" />
+			<key code="16" action="Y" />
+			<key code="17" action="T" />
+			<key code="18" action="sh_1" />
+			<key code="19" output="@" />
+			<key code="20" output="#" />
+			<key code="21" output="$" />
+			<key code="22" output="^" />
+			<key code="23" output="%" />
+			<key code="24" action="sh_equals" />
+			<key code="25" action="sh_9" />
+			<key code="26" output="&#x26;" />
+			<key code="27" action="sh_hyphen" />
+			<key code="28" action="sh_8" />
+			<key code="29" action="sh_0" />
+			<key code="30" action="sh_right_bracket" />
+			<key code="31" action="O" />
+			<key code="32" action="U" />
+			<key code="33" action="sh_left_bracket" />
+			<key code="34" action="I" />
+			<key code="35" action="P" />
+			<key code="36" output="&#xD;" />
+			<key code="37" action="L" />
+			<key code="38" action="J" />
+			<key code="39" output="&#x22;" />
+			<key code="40" action="K" />
+			<key code="41" action="sh_semicolon" />
+			<key code="42" action="sh_backslash" />
+			<key code="43" action="sh_comma" />
+			<key code="44" action="sh_forward_slash" />
+			<key code="45" action="N" />
+			<key code="46" action="M" />
+			<key code="47" action="sh_period" />
+			<key code="48" output="&#x9;" />
+			<key code="49" action="space" />
+			<key code="50" output="~" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<!-- gap, 54-64 -->
+			<key code="65" output="." />
+			<key code="66" output="*" />
+			<key code="67" output="*" />
+			<!-- gap, 68 -->
+			<key code="69" output="+" />
+			<key code="70" output="+" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="=" />
+			<!-- gap, 73-74 -->
+			<key code="75" output="/" />
+			<key code="76" output="&#x3;" />
+			<key code="77" output="/" />
+			<key code="78" output="-" />
+			<!-- gap, 79-80 -->
+			<key code="81" action="sh_num_equals" />
+			<key code="82" action="num_0" />
+			<key code="83" action="sh_num_1" />
+			<key code="84" action="sh_num_2" />
+			<key code="85" action="sh_num_3" />
+			<key code="86" action="sh_num_4" />
+			<key code="87" action="num_5" />
+			<key code="88" action="sh_num_6" />
+			<key code="89" action="sh_num_7" />
+			<!-- gap, 90 -->
+			<key code="91" action="sh_num_8" />
+			<key code="92" action="sh_num_9" />
+			<!-- gap, 93-94 -->
+			<key code="95" output="," />
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" action="space" />
+			<key code="103" output="&#x10;" />
+			<key code="104" action="space" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+		<keyMap index="2">
+			<key code="0" action="A" />
+			<key code="1" action="S" />
+			<key code="2" action="D" />
+			<key code="3" action="F" />
+			<key code="4" action="H" />
+			<key code="5" action="G" />
+			<key code="6" action="Z" />
+			<key code="7" action="X" />
+			<key code="8" action="C" />
+			<key code="9" action="V" />
+			<key code="10" output="&#xA7;" />
+			<key code="11" action="B" />
+			<key code="12" action="Q" />
+			<key code="13" action="W" />
+			<key code="14" action="E" />
+			<key code="15" action="R" />
+			<key code="16" action="Y" />
+			<key code="17" action="T" />
+			<key code="18" action="1" />
+			<key code="19" action="2" />
+			<key code="20" action="3" />
+			<key code="21" action="4" />
+			<key code="22" action="6" />
+			<key code="23" action="5" />
+			<key code="24" action="equals" />
+			<key code="25" action="9" />
+			<key code="26" action="7" />
+			<key code="27" action="hyphen" />
+			<key code="28" action="8" />
+			<key code="29" action="0" />
+			<key code="30" action="right_bracket" />
+			<key code="31" action="O" />
+			<key code="32" action="U" />
+			<key code="33" action="left_bracket" />
+			<key code="34" action="I" />
+			<key code="35" action="P" />
+			<key code="36" output="&#xD;" />
+			<key code="37" action="L" />
+			<key code="38" action="J" />
+			<key code="39" output="'" />
+			<key code="40" action="K" />
+			<key code="41" action="semicolon" />
+			<key code="42" action="backslash" />
+			<key code="43" action="comma" />
+			<key code="44" action="forward_slash" />
+			<key code="45" action="N" />
+			<key code="46" action="M" />
+			<key code="47" action="period" />
+			<key code="48" output="&#x9;" />
+			<key code="49" action="space" />
+			<key code="50" action="backtick" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<key code="54" output="&#x0;" />
+			<key code="55" output="&#x0;" />
+			<key code="56" output="&#x0;" />
+			<key code="57" output="&#x0;" />
+			<key code="58" output="&#x0;" />
+			<key code="59" output="&#x0;" />
+			<key code="60" output="&#x0;" />
+			<key code="61" output="&#x0;" />
+			<key code="62" output="&#x0;" />
+			<key code="63" output="&#x0;" />
+			<key code="64" output="&#x0;" />
+			<key code="65" output="." />
+			<key code="66" output="&#x1D;" />
+			<key code="67" action="num_asterisk" />
+			<key code="68" output="&#x0;" />
+			<key code="69" action="num_plus" />
+			<key code="70" output="&#x1C;" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="&#x1F;" />
+			<key code="73" output="&#x0;" />
+			<key code="74" output="&#x0;" />
+			<key code="75" action="num_slash" />
+			<key code="76" output="&#x3;" />
+			<key code="77" output="&#x1E;" />
+			<key code="78" action="num_minus" />
+			<key code="79" output="&#x0;" />
+			<key code="80" output="&#x0;" />
+			<key code="81" action="num_equals" />
+			<key code="82" action="num_0" />
+			<key code="83" action="num_1" />
+			<key code="84" action="num_2" />
+			<key code="85" action="num_3" />
+			<key code="86" action="num_4" />
+			<key code="87" action="num_5" />
+			<key code="88" action="num_6" />
+			<key code="89" action="num_7" />
+			<key code="90" output="&#x0;" />
+			<key code="91" action="num_8" />
+			<key code="92" action="num_9" />
+			<!-- gap, 93-94 -->
+			<key code="95" output="," />
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" action="space" />
+			<key code="103" output="&#x10;" />
+			<key code="104" action="space" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+		<keyMap index="3">
+			<key code="0" action="opt_a" />
+			<key code="1" action="opt_s" />
+			<key code="2" action="opt_d" />
+			<key code="3" action="opt_f" />
+			<key code="4" output="" />
+			<key code="5" action="opt_g" />
+			<key code="6" output="" />
+			<key code="7" output="" />
+			<key code="8" action="opt_c" />
+			<key code="9" output="" />
+			<key code="10" output="&#xA7;" />
+			<key code="11" output="" />
+			<key code="12" output="" />
+			<key code="13" output="" />
+			<key code="14" output="" />
+			<key code="15" action="opt_r" />
+			<key code="16" action="opt_y" />
+			<key code="17" output="" />
+			<key code="18" output="&#xA1;" />
+			<key code="19" action="opt_2" />
+			<key code="20" action="opt_3" />
+			<key code="21" action="opt_4" />
+			<key code="22" action="opt_6" />
+			<key code="23" action="opt_5" />
+			<key code="24" action="opt_equals" />
+			<key code="25" output="" />
+			<key code="26" action="opt_7" />
+			<key code="27" action="opt_hyphen" />
+			<key code="28" action="opt_8" />
+			<key code="29" action="opt_0" />
+			<key code="30" action="opt_right_bracket" />
+			<key code="31" action="opt_o" />
+			<key code="32" action="opt_u" />
+			<key code="33" action="opt_left_bracket" />
+			<key code="34" output="&#x131;" />
+			<key code="35" action="opt_p" />
+			<key code="36" output="&#xD;" />
+			<key code="37" action="opt_l" />
+			<key code="38" output="" />
+			<key code="39" action="opt_quote" />
+			<key code="40" action="opt_k" />
+			<key code="41" action="opt_semicolon" />
+			<key code="42" output="" />
+			<key code="43" action="opt_comma" />
+			<key code="44" output="&#xBF;" />
+			<key code="45" action="opt_n" />
+			<key code="46" action="opt_m" />
+			<key code="47" action="opt_period" />
+			<key code="48" output="&#x9;" />
+			<key code="49" action="opt_space" />
+			<key code="50" action="opt_backtick" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<!-- gap, 54-64 -->
+			<key code="65" action="opt_num_period" />
+			<key code="66" output="&#x1D;" />
+			<key code="67" action="opt_num_asterisk" />
+			<!-- gap, 68 -->
+			<key code="69" output="&#xB1;" />
+			<key code="70" output="&#x1C;" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="&#x1F;" />
+			<!-- gap, 73-74 -->
+			<key code="75" output="&#xF7;" />
+			<key code="76" output="&#x3;" />
+			<key code="77" output="&#x1E;" />
+			<key code="78" output="&#x2212;" />
+			<!-- gap, 79-80 -->
+			<key code="81" action="opt_num_equals" />
+			<key code="82" action="opt_num0" />
+			<key code="83" action="opt_num1" />
+			<key code="84" action="opt_num2" />
+			<key code="85" action="opt_num3" />
+			<key code="86" action="opt_num4" />
+			<key code="87" action="opt_num5" />
+			<key code="88" action="opt_num6" />
+			<key code="89" action="opt_num7" />
+			<!-- gap, 90 -->
+			<key code="91" action="opt_num8" />
+			<key code="92" action="opt_num9" />
+			<!-- gap, 93-94 -->
+			<key code="95" output="" />
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" action="space" />
+			<key code="103" output="&#x10;" />
+			<key code="104" action="space" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+		<keyMap index="4">
+			<key code="0" output="" />
+			<key code="1" output="&#xDF;" />
+			<key code="2" action="sh_opt_d" />
+			<key code="3" output="" />
+			<key code="4" output="" />
+			<key code="5" output="" />
+			<key code="6" output="" />
+			<key code="7" output="" />
+			<key code="8" output="" />
+			<key code="9" output="" />
+			<key code="10" output="&#xB1;" />
+			<key code="11" output="" />
+			<key code="12" output="" />
+			<key code="13" output="" />
+			<key code="14" output="" />
+			<key code="15" action="sh_opt_r" />
+			<key code="16" output="" />
+			<key code="17" output="" />
+			<key code="18" action="sh_opt_1" />
+			<key code="19" output="" />
+			<key code="20" output="" />
+			<key code="21" output="" />
+			<key code="22" action="sh_opt_6" />
+			<key code="23" output="" />
+			<key code="24" action="sh_opt_equals" />
+			<key code="25" output="" />
+			<key code="26" output="" />
+			<key code="27" output="&#x2014;" />
+			<key code="28" output="" />
+			<key code="29" action="sh_opt_0" />
+			<key code="30" action="sh_opt_right_bracket" />
+			<key code="31" output="" />
+			<key code="32" action="sh_opt_u" />
+			<key code="33" action="sh_opt_left_bracket" />
+			<key code="34" output="&#x130;" />
+			<key code="35" output="" />
+			<key code="36" output="&#xD;" />
+			<key code="37" action="sh_opt_l" />
+			<key code="38" output="" />
+			<key code="39" output="" />
+			<key code="40" output="" />
+			<key code="41" action="sh_opt_semicolon" />
+			<key code="42" output="" />
+			<key code="43" action="sh_opt_comma" />
+			<key code="44" action="sh_opt_forward_slash" />
+			<key code="45" output="" />
+			<key code="46" output="" />
+			<key code="47" action="sh_opt_period" />
+			<key code="48" output="&#x9;" />
+			<key code="49" output="&#xA0;" />
+			<key code="50" output="" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<!-- gap, 54-64 -->
+			<key code="65" action="sh_opt_num_period" />
+			<key code="66" output="*" />
+			<key code="67" action="sh_opt_num_asterisk" />
+			<!-- gap, 68 -->
+			<key code="69" output="" />
+			<key code="70" output="+" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="=" />
+			<!-- gap, 73-74 -->
+			<key code="75" action="sh_opt_num_slash" />
+			<key code="76" output="&#x3;" />
+			<key code="77" output="/" />
+			<key code="78" output="" />
+			<!-- gap, 79-80 -->
+			<key code="81" action="sh_opt_num_equals" />
+			<key code="82" action="sh_opt_num0" />
+			<key code="83" action="sh_opt_num1" />
+			<key code="84" action="sh_opt_num2" />
+			<key code="85" action="sh_opt_num3" />
+			<key code="86" action="sh_opt_num4" />
+			<key code="87" action="sh_opt_num5" />
+			<key code="88" action="sh_opt_num6" />
+			<key code="89" action="sh_opt_num7" />
+			<!-- gap, 90 -->
+			<key code="91" action="sh_opt_num8" />
+			<key code="92" action="sh_opt_num9" />
+			<!-- gap, 93-94 -->
+			<key code="95" output="" />
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" output="" />
+			<key code="103" output="&#x10;" />
+			<key code="104" output="" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+		<keyMap index="5">
+			<key code="0" action="opt_a" />
+			<key code="1" output="&#xDF;" />
+			<key code="2" action="opt_d" />
+			<key code="3" action="opt_f" />
+			<key code="4" output="" />
+			<key code="5" action="opt_g" />
+			<key code="6" output="" />
+			<key code="7" output="" />
+			<key code="8" action="opt_c" />
+			<key code="9" output="" />
+			<key code="10" output="&#xA7;" />
+			<key code="11" output="" />
+			<key code="12" output="" />
+			<key code="13" output="" />
+			<key code="14" output="" />
+			<key code="15" action="opt_r" />
+			<key code="16" action="opt_y" />
+			<key code="17" output="" />
+			<key code="18" output="&#xA1;" />
+			<key code="19" action="opt_2" />
+			<key code="20" action="opt_3" />
+			<key code="21" action="opt_4" />
+			<key code="22" action="opt_6" />
+			<key code="23" action="opt_5" />
+			<key code="24" action="opt_equals" />
+			<key code="25" output="" />
+			<key code="26" action="opt_7" />
+			<key code="27" action="opt_hyphen" />
+			<key code="28" action="opt_8" />
+			<key code="29" action="opt_0" />
+			<key code="30" action="opt_right_bracket" />
+			<key code="31" action="opt_o" />
+			<key code="32" action="opt_u" />
+			<key code="33" action="opt_left_bracket" />
+			<key code="34" output="&#x130;" />
+			<key code="35" action="opt_p" />
+			<key code="36" output="&#xD;" />
+			<key code="37" action="opt_l" />
+			<key code="38" output="" />
+			<key code="39" action="opt_quote" />
+			<key code="40" action="opt_k" />
+			<key code="41" action="opt_semicolon" />
+			<key code="42" output="" />
+			<key code="43" action="opt_comma" />
+			<key code="44" output="&#xBF;" />
+			<key code="45" action="opt_n" />
+			<key code="46" action="opt_m" />
+			<key code="47" action="opt_period" />
+			<key code="48" output="&#x9;" />
+			<key code="49" action="opt_space" />
+			<key code="50" action="opt_backtick" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<!-- gap, 54-64 -->
+			<key code="65" action="opt_num_period" />
+			<key code="66" output="&#x1D;" />
+			<key code="67" action="opt_num_asterisk" />
+			<!-- gap, 68 -->
+			<key code="69" output="&#xB1;" />
+			<key code="70" output="&#x1C;" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="&#x1F;" />
+			<!-- gap, 73-74 -->
+			<key code="75" output="&#xF7;" />
+			<key code="76" output="&#x3;" />
+			<key code="77" output="&#x1E;" />
+			<key code="78" output="&#x2212;" />
+			<!-- gap, 79-80 -->
+			<key code="81" output="&#x2248;" />
+			<key code="82" action="opt_num0" />
+			<key code="83" action="opt_num1" />
+			<key code="84" action="opt_num2" />
+			<key code="85" action="opt_num3" />
+			<key code="86" action="opt_num4" />
+			<key code="87" action="opt_num5" />
+			<key code="88" action="opt_num6" />
+			<key code="89" action="opt_num7" />
+			<!-- gap, 90 -->
+			<key code="91" action="opt_num8" />
+			<key code="92" action="opt_num9" />
+			<!-- gap, 93-94 -->
+			<key code="95" output="" />
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" output="" />
+			<key code="103" output="&#x10;" />
+			<key code="104" output="" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+		<keyMap index="6">
+			<key code="0" output="a" />
+			<key code="1" output="s" />
+			<key code="2" output="d" />
+			<key code="3" output="f" />
+			<key code="4" output="h" />
+			<key code="5" output="g" />
+			<key code="6" output="z" />
+			<key code="7" output="x" />
+			<key code="8" output="c" />
+			<key code="9" output="v" />
+			<key code="10" output="&#xA7;" />
+			<key code="11" output="b" />
+			<key code="12" output="q" />
+			<key code="13" output="w" />
+			<key code="14" output="e" />
+			<key code="15" output="r" />
+			<key code="16" output="y" />
+			<key code="17" output="t" />
+			<key code="18" output="1" />
+			<key code="19" output="2" />
+			<key code="20" output="3" />
+			<key code="21" output="4" />
+			<key code="22" output="6" />
+			<key code="23" output="5" />
+			<key code="24" output="=" />
+			<key code="25" output="9" />
+			<key code="26" output="7" />
+			<key code="27" output="-" />
+			<key code="28" output="8" />
+			<key code="29" output="0" />
+			<key code="30" output="]" />
+			<key code="31" output="o" />
+			<key code="32" output="u" />
+			<key code="33" output="[" />
+			<key code="34" output="i" />
+			<key code="35" output="p" />
+			<key code="36" output="&#xD;" />
+			<key code="37" output="l" />
+			<key code="38" output="j" />
+			<key code="39" output="'" />
+			<key code="40" output="k" />
+			<key code="41" output=";" />
+			<key code="42" output="\" />
+			<key code="43" output="," />
+			<key code="44" output="/" />
+			<key code="45" output="n" />
+			<key code="46" output="m" />
+			<key code="47" output="." />
+			<key code="48" output="&#x9;" />
+			<key code="49" output=" " />
+			<key code="50" output="`" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<!-- gap, 54-64 -->
+			<key code="65" output="." />
+			<key code="66" output="&#x1D;" />
+			<key code="67" output="*" />
+			<!-- gap, 68 -->
+			<key code="69" output="+" />
+			<key code="70" output="&#x1C;" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="&#x1F;" />
+			<!-- gap, 73-74 -->
+			<key code="75" output="/" />
+			<key code="76" output="&#x3;" />
+			<key code="77" output="&#x1E;" />
+			<key code="78" output="-" />
+			<!-- gap, 79-80 -->
+			<key code="81" output="=" />
+			<key code="82" output="0" />
+			<key code="83" output="1" />
+			<key code="84" output="2" />
+			<key code="85" output="3" />
+			<key code="86" output="4" />
+			<key code="87" output="5" />
+			<key code="88" output="6" />
+			<key code="89" output="7" />
+			<!-- gap, 90 -->
+			<key code="91" output="8" />
+			<key code="92" output="9" />
+			<!-- gap, 93-95 -->
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" output="" />
+			<key code="103" output="&#x10;" />
+			<key code="104" output="" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+		<keyMap index="7">
+			<key code="0" output="&#x1;" />
+			<key code="1" output="&#x13;" />
+			<key code="2" output="&#x4;" />
+			<key code="3" output="&#x6;" />
+			<key code="4" output="&#x8;" />
+			<key code="5" output="&#x7;" />
+			<key code="6" output="&#x1A;" />
+			<key code="7" output="&#x18;" />
+			<key code="8" output="&#x3;" />
+			<key code="9" output="&#x16;" />
+			<!-- gap, 10 -->
+			<key code="11" output="&#x2;" />
+			<key code="12" output="&#x11;" />
+			<key code="13" output="&#x17;" />
+			<key code="14" output="&#x5;" />
+			<key code="15" output="&#x12;" />
+			<key code="16" output="&#x19;" />
+			<key code="17" output="&#x14;" />
+			<key code="18" output="1" />
+			<key code="19" output="2" />
+			<key code="20" output="3" />
+			<key code="21" output="4" />
+			<key code="22" output="6" />
+			<key code="23" output="5" />
+			<key code="24" output="=" />
+			<key code="25" output="9" />
+			<key code="26" output="7" />
+			<key code="27" output="&#x1F;" />
+			<key code="28" output="8" />
+			<key code="29" output="0" />
+			<key code="30" output="&#x1D;" />
+			<key code="31" output="&#xF;" />
+			<key code="32" output="&#x15;" />
+			<key code="33" output="&#x1B;" />
+			<key code="34" output="&#x9;" />
+			<key code="35" output="&#x10;" />
+			<key code="36" output="&#xD;" />
+			<key code="37" output="&#xC;" />
+			<key code="38" output="&#xA;" />
+			<key code="39" output="'" />
+			<key code="40" output="&#xB;" />
+			<key code="41" output=";" />
+			<key code="42" output="&#x1C;" />
+			<key code="44" output="/" />
+			<key code="43" output="," />
+			<key code="45" output="&#xE;" />
+			<key code="46" output="&#xD;" />
+			<key code="47" output="." />
+			<key code="48" output="&#x9;" />
+			<key code="49" output="&#x0;" />
+			<key code="50" output="`" />
+			<key code="51" output="&#x8;" />
+			<key code="52" output="&#x3;" />
+			<key code="53" output="&#x1B;" />
+			<!-- gap, 54-65 -->
+			<key code="66" output="&#x1D;" />
+			<!-- gap, 67-69 -->
+			<key code="70" output="&#x1C;" />
+			<key code="71" output="&#x1B;" />
+			<key code="72" output="&#x1F;" />
+			<!-- gap, 73-75 -->
+			<key code="76" output="&#x3;" />
+			<key code="77" output="&#x1E;" />
+			<!-- gap, 78-95 -->
+			<key code="96" output="&#x10;" />
+			<key code="97" output="&#x10;" />
+			<key code="98" output="&#x10;" />
+			<key code="99" output="&#x10;" />
+			<key code="100" output="&#x10;" />
+			<key code="101" output="&#x10;" />
+			<key code="102" output="" />
+			<key code="103" output="&#x10;" />
+			<key code="104" output="" />
+			<key code="105" output="&#x10;" />
+			<key code="106" output="&#x10;" />
+			<key code="107" output="&#x10;" />
+			<key code="108" output="&#x10;" />
+			<key code="109" output="&#x10;" />
+			<key code="110" output="&#x10;" />
+			<key code="111" output="&#x10;" />
+			<key code="112" output="&#x10;" />
+			<key code="113" output="&#x10;" />
+			<key code="114" output="&#x5;" />
+			<key code="115" output="&#x1;" />
+			<key code="116" output="&#xB;" />
+			<key code="117" output="&#x7F;" />
+			<key code="118" output="&#x10;" />
+			<key code="119" output="&#x4;" />
+			<key code="120" output="&#x10;" />
+			<key code="121" output="&#xC;" />
+			<key code="122" output="&#x10;" />
+			<key code="123" output="&#x1C;" />
+			<key code="124" output="&#x1D;" />
+			<key code="125" output="&#x1F;" />
+			<key code="126" output="&#x1E;" />
+		</keyMap>
+	</keyMapSet>
+	<actions>
+		<!-- Analphabetic keys -->
+		<action id="backtick">
+			<when state="none" output="`" />
+		</action>
+		<action id="opt_backtick">
+			<when state="none" output="" />
+		</action>
+		<action id="hyphen">
+			<when state="none" output="-" />
+			<when state="currency_n" next="currency_n_hyphen" />
+			<when state="currency_n_hyphen" output="&#x20A6;" />
+			<when state="currency_p" next="currency_p_hyphen" />
+			<when state="currency_p_hyphen" output="&#x20B1;" />
+			<when state="currency_w" next="currency_w_hyphen" />
+			<when state="currency_w_hyphen" output="&#x20A9;" />
+			<when state="currency_k" output="&#x20AD;" />
+			<when state="dashes" output="&#x2011;" />
+			<when state="dots" output="&#x2043;" />
+			<when state="math" output="&#x2212;" />
+			<when state="superscripts" output="&#x207B;" />
+			<when state="s_superscripts" output="&#x207B;" next="s_superscripts" />
+			<when state="subscripts" output="&#x208B;" />
+			<when state="s_subscripts" output="&#x208B;" next="s_subscripts" />
+		</action>
+		<action id="sh_hyphen">
+			<when state="none" output="_" />
+		</action>
+		<action id="opt_hyphen">
+			<when state="none" next="dashes" />
+		</action>
+		<action id="equals">
+			<when state="none" output="=" />
+			<when state="currency_n" output="&#x20A6;" />
+			<when state="currency_p" output="&#x20B1;" />
+			<when state="currency_w" output="&#x20A9;" />
+			<when state="math" output="&#x2248;" />
+			<when state="superscripts" output="&#x207C;" />
+			<when state="s_superscripts" output="&#x207C;" next="s_superscripts" />
+			<when state="subscripts" output="&#x208C;" />
+			<when state="s_subscripts" output="&#x208C;" next="s_subscripts" />
+		</action>
+		<action id="sh_equals">
+			<when state="none" output="+" />
+			<when state="math" output="&#xB1;" />
+			<when state="superscripts" output="&#x207A;" />
+			<when state="s_superscripts" output="&#x207A;" next="s_superscripts" />
+			<when state="subscripts" output="&#x208A;" />
+			<when state="s_subscripts" output="&#x208A;" next="s_subscripts" />
+		</action>
+		<action id="opt_equals">
+			<when state="none" next="math" />
+			<when state="math" output="&#x2260;" />
+		</action>
+		<action id="sh_opt_equals">
+			<when state="none" output="" />
+			<when state="math" output="&#x2260;" />
+		</action>
+		<action id="left_bracket">
+			<when state="none" output="[" />
+			<when state="quotes" output="&#x2018;" />
+		</action>
+		<action id="right_bracket">
+			<when state="none" output="]" />
+			<when state="quotes" output="&#x2019;" />
+		</action>
+		<action id="sh_left_bracket">
+			<when state="none" output="{" />
+			<when state="quotes" output="&#x201C;" />
+		</action>
+		<action id="sh_right_bracket">
+			<when state="none" output="}" />
+			<when state="quotes" output="&#x201D;" />
+		</action>
+		<action id="opt_left_bracket">
+			<when state="none" output="&#x2018;" />
+			<when state="quotes" output="&#x201B;" />
+		</action>
+		<action id="opt_right_bracket">
+			<when state="none" output="&#x2019;" />
+			<when state="quotes" output="&#x201A;" />
+		</action>
+		<action id="sh_opt_left_bracket">
+			<when state="none" output="&#x201C;" />
+			<when state="quotes" output="&#x201F;" />
+		</action>
+		<action id="sh_opt_right_bracket">
+			<when state="none" output="&#x201D;" />
+			<when state="quotes" output="&#x201E;" />
+		</action>
+		<action id="backslash">
+			<when state="none" output="\" />
+			<when state="symbols" output="&#x2016;" />
+			<when state="math" output="&#x2225;" />
+		</action>
+		<action id="sh_backslash">
+			<when state="none" output="|" />
+			<when state="symbols" output="&#xA6;" />
+			<when state="math" output="&#x2226;" />
+		</action>
+		<action id="semicolon">
+			<when state="none" output=";" />
+			<when state="math" output="&#x2236;" />
+		</action>
+		<action id="sh_semicolon">
+			<when state="none" output=":" />
+			<when state="math" output="&#x2237;" />
+		</action>
+		<action id="opt_semicolon">
+			<when state="none" output="&#x2026;" />
+		</action>
+		<action id="sh_opt_semicolon">
+			<when state="none" output="" />
+		</action>
+		<action id="quote">
+			<when state="none" output="'" />
+			<when state="math" next="prime" />
+			<when state="prime" next="double_prime" />
+			<when state="double_prime" next="triple_prime" />
+			<when state="triple_prime" output="&#x2057;" />
+		</action>
+		<action id="opt_quote">
+			<when state="none" next="quotes" />
+		</action>
+		<action id="comma">
+			<when state="none" output="," />
+			<when state="quotes" output="&#x2039;" />
+			<when state="math" output="&#x2234;" />
+		</action>
+		<action id="sh_comma">
+			<when state="none" output="&#x3C;" />
+			<when state="quotes" output="&#xAB;" />
+			<when state="math" output="&#x2264;" />
+		</action>
+		<action id="opt_comma">
+			<when state="none" output="&#x2039;" />
+			<when state="math" output="&#x22EF;" />
+		</action>
+		<action id="sh_opt_comma">
+			<when state="none" output="&#xAB;" />
+			<when state="math" output="&#x226A;" />
+		</action>
+		<action id="period">
+			<when state="none" output="." />
+			<when state="quotes" output="&#x203A;" />
+			<when state="dots" next="single_dot_leader" />
+			<when state="single_dot_leader" next="two_dot_leader" />
+			<when state="two_dot_leader" output="&#x2026;" />
+			<when state="math" output="&#x22C5;" />
+		</action>
+		<action id="sh_period">
+			<when state="none" output="&#x3E;" />
+			<when state="quotes" output="&#xBB;" />
+			<when state="math" output="&#x2265;" />
+		</action>
+		<action id="opt_period">
+			<when state="none" output="&#x203A;" />
+		</action>
+		<action id="sh_opt_period">
+			<when state="none" output="&#xBB;" />
+			<when state="math" output="&#x226B;" />
+		</action>
+		<action id="forward_slash">
+			<when state="none" output="/" />
+			<when state="fractions" output="&#x2044;" />
+			<when state="currency_c" next="currency_c_slash" />
+			<when state="currency_c_slash" output="&#x20A1;" />
+			<when state="currency_m" output="&#x20A5;" />
+			<when state="currency_t" next="currency_t_slash" />
+			<when state="currency_t_slash" output="&#x20AE;" />
+			<when state="ligatures_a" next="ligatures_a_slash" />
+			<when state="ligatures_A" next="ligatures_A_slash" />
+			<when state="ligatures_c" next="ligatures_c_slash" />
+			<when state="ligatures_C" next="ligatures_C_slash" />
+			<when state="fractions_1" next="fractions_1_slash" />
+			<when state="fractions_2" next="fractions_2_slash" />
+			<when state="fractions_3" next="fractions_3_slash" />
+			<when state="fractions_4" next="fractions_4_slash" />
+			<when state="fractions_5" next="fractions_5_slash" />
+			<when state="fractions_7" next="fractions_7_slash" />
+			<when state="superscripts" output="&#x2044;" next="subscripts" />
+			<when state="s_superscripts" output="&#x2044;" next="s_subscripts" />
+			<when state="symbols" output="&#xBF;" />
+			<when state="math" output="&#x2044;" />
+		</action>
+		<action id="sh_forward_slash">
+			<when state="none" output="?" />
+			<when state="symbols" next="ligatures_question" />
+			<when state="ligatures" next="ligatures_question" />
+			<when state="ligatures_question" output="&#x2047;" />
+			<when state="ligatures_exclamation" output="&#x2049;" />
+		</action>
+		<action id="sh_opt_forward_slash">
+			<when state="none" next="ligatures_question" />
+		</action>
+		
+		<!-- Control keys -->
+		<action id="space">
+			<when state="none" output=" " />
+			<when state="space" output="&#xA0;" />
+			<when state="s_greek" output=" " next="s_greek" />
+			<when state="s_superscripts" output=" " next="s_superscripts" />
+			<when state="s_subscripts" output=" " next="s_superscripts" />
+			<when state="s_keyboard" output=" " next="s_keyboard" />
+		</action>
+		<action id="opt_space">
+			<when state="none" next="space" />
+			<when state="space" output="&#x202F;" />
+		</action>
+		
+		<!-- Number keys -->
+		<action id="1">
+			<when state="none" output="1" />
+			<when state="fractions" next="fractions_1" />
+			<when state="fractions_1" output="&#xB9;&#xB9;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xB9;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_2" output="&#xB2;&#xB9;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_3" output="&#xB3;&#xB9;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_4" output="&#x2074;&#xB9;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#xB9;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#xB9;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="superscripts" output="&#xB9;" />
+			<when state="s_superscripts" output="&#xB9;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2081;" />
+			<when state="s_subscripts" output="&#x2081;" next="s_subscripts" />
+			<when state="symbols" output="&#xA1;" />
+		</action>
+		<action id="sh_1">
+			<when state="none" output="!" />
+			<when state="symbols" next="ligatures_exclamation" />
+			<when state="ligatures" next="ligatures_exclamation" />
+			<when state="ligatures_question" output="&#x2048;" />
+			<when state="ligatures_exclamation" output="&#x203C;" />
+		</action>
+		<action id="sh_opt_1">
+			<when state="none" next="ligatures_exclamation" />
+		</action>
+		<action id="2">
+			<when state="none" output="2" />
+			<when state="fractions" next="fractions_2" />
+			<when state="fractions_1" output="&#xB9;&#xB2;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xBD;" />
+			<when state="fractions_2" output="&#xB2;&#xB2;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_3" output="&#xB3;&#xB2;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_4" output="&#x2074;&#xB2;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#xB2;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#xB2;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="superscripts" output="&#xB2;" />
+			<when state="s_superscripts" output="&#xB2;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2082;" />
+			<when state="s_subscripts" output="&#x2082;" next="s_subscripts" />
+			<when state="math" output="&#x221A;" />
+		</action>
+		<action id="opt_2">
+			<when state="none" next="symbols" />
+		</action>
+		<action id="3">
+			<when state="none" output="3" />
+			<when state="space" output="&#x2004;" />
+			<when state="fractions" next="fractions_3" />
+			<when state="fractions_1" output="&#xB9;&#xB3;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x2153;" />
+			<when state="fractions_2" output="&#xB2;&#xB3;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#x2154;" />
+			<when state="fractions_3" output="&#xB3;&#xB3;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="fractions_4" output="&#x2074;&#xB3;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#xB3;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#xB3;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="superscripts" output="&#xB3;" />
+			<when state="s_superscripts" output="&#xB3;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2083;" />
+			<when state="s_subscripts" output="&#x2083;" next="s_subscripts" />
+			<when state="math" output="&#x221B;" />
+		</action>
+		<action id="opt_3">
+			<when state="none" next="numerals" />
+		</action>
+		<action id="4">
+			<when state="none" output="4" />
+			<when state="space" output="&#x2005;" />
+			<when state="fractions" next="fractions_4" />
+			<when state="fractions_1" output="&#xB9;&#xB3;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xBC;" />
+			<when state="fractions_2" output="&#xB2;&#x2074;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="fractions_3" output="&#xB3;&#x2074;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xBE;" />
+			<when state="fractions_4" output="&#x2074;&#x2074;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#x2074;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#x2074;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2074;" />
+			<when state="s_superscripts" output="&#x2074;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2084;" />
+			<when state="s_subscripts" output="&#x2084;" next="s_subscripts" />
+			<when state="math" output="&#x221C;" />
+		</action>
+		<action id="opt_4">
+			<when state="none" next="currency" />
+		</action>
+		<action id="5">
+			<when state="none" output="5" />
+			<when state="fractions" next="fractions_5" />
+			<when state="fractions_1" output="&#xB9;&#x2075;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x2155;" />
+			<when state="fractions_2" output="&#xB2;&#x2075;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#x2156;" />
+			<when state="fractions_3" output="&#xB3;&#x2075;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#x2157;" />
+			<when state="fractions_4" output="&#x2158;" />
+			<when state="fractions_4_slash" output="&#x2158;" />
+			<when state="fractions_5" output="&#x2075;&#x2075;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2085;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#x2075;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2085;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2075;" />
+			<when state="s_superscripts" output="&#x2075;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2085;" />
+			<when state="s_subscripts" output="&#x2085;" next="s_subscripts" />
+		</action>
+		<action id="opt_5">
+			<when state="none" next="fractions" />
+		</action>
+		<action id="6">
+			<when state="none" output="6" />
+			<when state="space" output="&#x2006;" />
+			<when state="fractions" output="&#x2076;" next="s_superscripts" />
+			<when state="fractions_1" output="&#xB9;&#x2076;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x2159;" />
+			<when state="fractions_2" output="&#xB2;&#x2076;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2086;" />
+			<when state="fractions_3" output="&#xB3;&#x2076;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2086;" />
+			<when state="fractions_4" output="&#x2074;&#x2076;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2086;" />
+			<when state="fractions_5" output="&#x2075;&#x2076;" />
+			<when state="fractions_5_slash" output="&#x215A;" />
+			<when state="fractions_7" output="&#x2077;&#x2076;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2086;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2076;" />
+			<when state="s_superscripts" output="&#x2076;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2086;" />
+			<when state="s_subscripts" output="&#x2086;" next="s_subscripts" />
+		</action>
+		<action id="opt_6">
+			<when state="none" next="superscripts" />
+			<when state="superscripts" next="s_superscripts" />
+		</action>
+		<action id="sh_opt_6">
+			<when state="none" next="subscripts" />
+			<when state="subscripts" next="s_subscripts" />
+		</action>
+		<action id="7">
+			<when state="none" output="7" />
+			<when state="fractions" next="fractions_7" />
+			<when state="fractions_1" output="&#xB9;&#x2077;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xB9;&#x2044;&#x2087;" />
+			<when state="fractions_2" output="&#xB2;&#x2077;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2087;" />
+			<when state="fractions_3" output="&#xB3;&#x2077;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2087;" />
+			<when state="fractions_4" output="&#x2074;&#x2077;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2087;" />
+			<when state="fractions_5" output="&#x2075;&#x2077;" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2087;" />
+			<when state="fractions_7" output="&#x2077;&#x2077;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2087;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2077;" />
+			<when state="s_superscripts" output="&#x2077;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2087;" />
+			<when state="s_subscripts" output="&#x2087;" next="s_subscripts" />
+		</action>
+		<action id="opt_7">
+			<when state="none" next="ligatures" />
+			<when state="math" output="&#x2221;" />
+		</action>
+		<action id="8">
+			<when state="none" output="8" />
+			<when state="fractions" output="&#x2078;" next="s_superscripts" />
+			<when state="fractions_1" output="&#xB9;&#x2078;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x215B;" />
+			<when state="fractions_2" output="&#xB2;&#x2078;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2088;" />
+			<when state="fractions_3" output="&#xB3;&#x2078;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#x215C;" />
+			<when state="fractions_4" output="&#x2074;&#x2078;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2088;" />
+			<when state="fractions_5" output="&#x2075;&#x2078;" />
+			<when state="fractions_5_slash" output="&#x215D;" />
+			<when state="fractions_7" output="&#x2077;&#x2078;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x215E;" />
+			<when state="superscripts" output="&#x2078;" />
+			<when state="s_superscripts" output="&#x2078;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2088;" />
+			<when state="s_subscripts" output="&#x2088;" next="s_subscripts" />
+			<when state="math" output="&#x221E;" />
+		</action>
+		<action id="sh_8">
+			<when state="none" output="*" />
+			<when state="math" output="&#x221D;" />
+		</action>
+		<action id="opt_8">
+			<when state="none" next="dots" />
+		</action>
+		<action id="9">
+			<when state="none" output="9" />
+			<when state="fractions" output="&#x2079;" next="s_superscripts" />
+			<when state="fractions_1" output="&#xB9;&#x2079;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xB9;&#x2044;&#x2089;" />
+			<when state="fractions_2" output="&#xB2;&#x2079;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2089;" />
+			<when state="fractions_3" output="&#xB3;&#x2079;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2089;" />
+			<when state="fractions_4" output="&#x2074;&#x2079;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2089;" />
+			<when state="fractions_5" output="&#x2075;&#x2079;" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2089;" />
+			<when state="fractions_7" output="&#x2077;&#x2079;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2089;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2079;" />
+			<when state="s_superscripts" output="&#x2079;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2089;" />
+			<when state="s_subscripts" output="&#x2089;" next="s_subscripts" />
+		</action>
+		<action id="sh_9">
+			<when state="none" output="(" />
+			<when state="superscripts" output="&#x207D;" />
+			<when state="s_superscripts" output="&#x207D;" next="s_superscripts" />
+			<when state="subscripts" output="&#x208D;" />
+			<when state="s_subscripts" output="&#x208D;" next="s_subscripts" />
+		</action>
+		<action id="0">
+			<when state="none" output="0" />
+			<when state="space" output="&#x200B;" />
+			<when state="fractions" output="&#x2070;" next="s_superscripts" />
+			<when state="superscripts" output="&#x2070;" />
+			<when state="s_superscripts" output="&#x2070;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2080;" />
+			<when state="s_subscripts" output="&#x2080;" next="s_subscripts" />
+		</action>
+		<action id="sh_0">
+			<when state="none" output=")" />
+			<when state="superscripts" output="&#x207E;" />
+			<when state="s_superscripts" output="&#x207E;" next="s_superscripts" />
+			<when state="subscripts" output="&#x208E;" />
+			<when state="s_subscripts" output="&#x208E;" next="s_subscripts" />
+		</action>
+		<action id="opt_0">
+			<when state="none" output="" />
+			<when state="space" output="&#x200D;" />
+		</action>
+		<action id="sh_opt_0">
+			<when state="none" output="" />
+			<when state="space" output="&#x200C;" />
+		</action>
+		
+		<!-- Lowercase alphabetic keys -->
+		<action id="a">
+			<when state="none" output="a" />
+			<when state="ligatures" next="ligatures_a" />
+			<when state="superscripts" output="&#xAA;" />
+			<when state="s_superscripts" output="&#xAA;" next="s_superscripts" />
+			<when state="greek" output="&#x3B1;" />
+			<when state="s_greek" output="&#x3B1;" next="s_greek" />
+			<when state="cedilla" output="a&#x327;" />
+			<when state="grave" output="&#xE0;" />
+			<when state="acute" output="&#xE1;" />
+			<when state="circumflex" output="&#xE2;" />
+			<when state="tilde" output="&#xE3;" />
+			<when state="diaeresis" output="&#xE4;" />
+			<when state="ring" output="&#xE5;" />
+			<when state="macron" output="&#x101;" />
+			<when state="breve" output="&#x103;" />
+			<when state="overcomma" output="a&#x313;" />
+			<when state="overdot" output="&#x227;" />
+			<when state="ogonek" output="&#x105;" />
+			<when state="double_grave" output="&#x201;" />
+			<when state="double_acute" output="a&#x30B;" />
+			<when state="caron" output="&#x1CE;" />
+			<when state="hoi" output="&#x1EA3;" />
+			<when state="bar" output="a&#x335;" />
+			<when state="underbar" output="a&#x331;" />
+			<when state="arch" output="&#x203;" />
+			<when state="undercomma" output="a&#x326;" />
+			<when state="underdot" output="&#x1EA1;" />
+			<when state="math" output="&#x2227;" />
+			<when state="keyboard" output="&#xF8FF;" />
+			<when state="s_keyboard" output="&#xF8FF;" next="s_keyboard" />
+		</action>
+		<action id="opt_a">
+			<when state="none" next="arrows" />
+		</action>
+		<action id="b">
+			<when state="none" output="b" />
+			<when state="greek" output="&#x3B2;" />
+			<when state="s_greek" output="&#x3B2;" next="s_greek" />
+			<when state="cedilla" output="b&#x327;" />
+			<when state="grave" output="b&#x300;" />
+			<when state="acute" output="b&#x301;" />
+			<when state="circumflex" output="b&#x302;" />
+			<when state="tilde" output="b&#x303;" />
+			<when state="diaeresis" output="b&#x308;" />
+			<when state="ring" output="b&#x30A;" />
+			<when state="macron" output="b&#x304;" />
+			<when state="breve" output="b&#x306;" />
+			<when state="overcomma" output="b&#x313;" />
+			<when state="overdot" output="&#x1E03;" />
+			<when state="ogonek" output="b&#x328;" />
+			<when state="double_grave" output="b&#x30F;" />
+			<when state="double_acute" output="b&#x30B;" />
+			<when state="caron" output="b&#x30C;" />
+			<when state="hoi" output="b&#x309;" />
+			<when state="bar" output="b&#x335;" />
+			<when state="underbar" output="&#x1E07;" />
+			<when state="arch" output="b&#x311;" />
+			<when state="undercomma" output="b&#x326;" />
+			<when state="underdot" output="&#x1E05;" />
+			<when state="dashes" output="&#x2015;" />
+			<when state="dots" output="&#x2022;" />
+			<when state="math" output="&#x2219;" />
+			<when state="keyboard" output="&#x232B;" />
+			<when state="s_keyboard" output="&#x232B;" next="s_keyboard" />
+		</action>
+		<action id="c">
+			<when state="none" output="c" />
+			<when state="ligatures" next="ligatures_c" />
+			<when state="ligatures_a" output="&#x2100;" />
+			<when state="ligatures_a_slash" output="&#x2100;" />
+			<when state="ligatures_A" output="&#x2100;" />
+			<when state="ligatures_A_slash" output="&#x2100;" />
+			<when state="greek" output="&#x3B3;" />
+			<when state="s_greek" output="&#x3B3;" next="s_greek" />
+			<when state="currency" next="currency_c" />
+			<when state="numerals" output="&#x217D;" />
+			<when state="cedilla" output="&#xE7;" />
+			<when state="grave" output="c&#x300;" />
+			<when state="acute" output="&#x107;" />
+			<when state="circumflex" output="&#x109;" />
+			<when state="tilde" output="c&#x303;" />
+			<when state="diaeresis" output="c&#x308;" />
+			<when state="ring" output="c&#x30A;" />
+			<when state="macron" output="c&#x304;" />
+			<when state="breve" output="c&#x306;" />
+			<when state="overcomma" output="c&#x313;" />
+			<when state="overdot" output="&#x10B;" />
+			<when state="ogonek" output="c&#x328;" />
+			<when state="double_grave" output="c&#x30F;" />
+			<when state="double_acute" output="c&#x30B;" />
+			<when state="caron" output="&#x10D;" />
+			<when state="hoi" output="c&#x309;" />
+			<when state="bar" output="c&#x335;" />
+			<when state="underbar" output="c&#x331;" />
+			<when state="arch" output="c&#x311;" />
+			<when state="undercomma" output="c&#x326;" />
+			<when state="underdot" output="c&#x323;" />
+			<when state="symbols" next="symbols_c" />
+			<when state="keyboard" output="&#x21EA;" />
+			<when state="s_keyboard" output="&#x21EA;" next="s_keyboard" />
+		</action>
+		<action id="opt_c">
+			<when state="none" next="currency" />
+		</action>
+		<action id="d">
+			<when state="none" output="d" />
+			<when state="greek" output="&#x3B4;" />
+			<when state="s_greek" output="&#x3B4;" next="s_greek" />
+			<when state="currency" next="currency_d" />
+			<when state="numerals" output="&#x217E;" />
+			<when state="cedilla" output="d&#x327;" />
+			<when state="grave" output="d&#x300;" />
+			<when state="acute" output="d&#x301;" />
+			<when state="circumflex" output="d&#x302;" />
+			<when state="tilde" output="d&#x303;" />
+			<when state="diaeresis" output="d&#x308;" />
+			<when state="ring" output="d&#x30A;" />
+			<when state="macron" output="d&#x304;" />
+			<when state="breve" output="d&#x306;" />
+			<when state="overcomma" output="d&#x313;" />
+			<when state="overdot" output="&#x1E0B;" />
+			<when state="ogonek" output="d&#x328;" />
+			<when state="double_grave" output="d&#x30F;" />
+			<when state="double_acute" output="d&#x30B;" />
+			<when state="caron" output="&#x10F;" />
+			<when state="hoi" output="d&#x309;" />
+			<when state="bar" output="&#x111;" />
+			<when state="underbar" output="&#x1E0F;" />
+			<when state="arch" output="d&#x311;" />
+			<when state="undercomma" output="&#x1E11;" />
+			<when state="underdot" output="&#x1E0D;" />
+			<when state="symbols" output="&#xB0;" />
+			<when state="dots" output="&#xB0;" />
+			<when state="math" output="&#x2202;" />
+			<when state="keyboard" output="&#x2326;" />
+			<when state="s_keyboard" output="&#x2326;" next="s_keyboard" />
+		</action>
+		<action id="opt_d">
+			<when state="none" next="dashes" />
+			<when state="currency" output="&#x20B0;" />
+		</action>
+		<action id="e">
+			<when state="none" output="e" />
+			<when state="greek" output="&#x3B5;" />
+			<when state="s_greek" output="&#x3B5;" next="s_greek" />
+			<when state="ligatures_a" output="&#xE6;" />
+			<when state="ligatures_o" output="&#x153;" />
+			<when state="currency" output="&#x20AC;" />
+			<when state="currency_c" output="&#x20A0;" />
+			<when state="cedilla" output="&#x229;" />
+			<when state="grave" output="&#xE8;" />
+			<when state="acute" output="&#xE9;" />
+			<when state="circumflex" output="&#xEA;" />
+			<when state="tilde" output="&#x1EBD;" />
+			<when state="diaeresis" output="&#xEB;" />
+			<when state="ring" output="e&#x30A;" />
+			<when state="macron" output="&#x113;" />
+			<when state="breve" output="&#x115;" />
+			<when state="overcomma" output="e&#x313;" />
+			<when state="overdot" output="&#x117;" />
+			<when state="ogonek" output="&#x119;" />
+			<when state="double_grave" output="&#x205;" />
+			<when state="double_acute" output="e&#x30B;" />
+			<when state="caron" output="&#x11B;" />
+			<when state="hoi" output="&#x1EBB;" />
+			<when state="bar" output="e&#x335;" />
+			<when state="underbar" output="e&#x331;" />
+			<when state="arch" output="&#x207;" />
+			<when state="undercomma" output="e&#x326;" />
+			<when state="underdot" output="&#x1EB9;" />
+			<when state="keyboard" output="&#x238B;" />
+			<when state="s_keyboard" output="&#x238B;" next="s_keyboard" />
+		</action>
+		<action id="f">
+			<when state="none" output="f" />
+			<when state="greek" output="&#x3B8;" />
+			<when state="s_greek" output="&#x3B8;" next="s_greek" />
+			<when state="ligatures" next="ligatures_f" />
+			<when state="ligatures_f" next="ligatures_ff" />
+			<when state="currency" next="currency_f" />
+			<when state="space" output="&#x2007;" />
+			<when state="cedilla" output="f&#x327;" />
+			<when state="grave" output="f&#x300;" />
+			<when state="acute" output="f&#x301;" />
+			<when state="circumflex" output="f&#x302;" />
+			<when state="tilde" output="f&#x303;" />
+			<when state="diaeresis" output="f&#x308;" />
+			<when state="ring" output="f&#x30A;" />
+			<when state="macron" output="f&#x304;" />
+			<when state="breve" output="f&#x306;" />
+			<when state="overcomma" output="f&#x313;" />
+			<when state="overdot" output="&#x1E1F;" />
+			<when state="ogonek" output="f&#x328;" />
+			<when state="double_grave" output="f&#x30F;" />
+			<when state="double_acute" output="f&#x30B;" />
+			<when state="caron" output="f&#x30C;" />
+			<when state="hoi" output="f&#x309;" />
+			<when state="bar" output="f&#x335;" />
+			<when state="underbar" output="f&#x331;" />
+			<when state="arch" output="f&#x311;" />
+			<when state="undercomma" output="f&#x326;" />
+			<when state="underdot" output="f&#x323;" />
+			<when state="dashes" output="&#x2012;" />
+			<when state="math" output="&#x192;" />
+		</action>
+		<action id="opt_f">
+			<when state="none" next="fractions" />
+		</action>
+		<action id="g">
+			<when state="none" output="g" />
+			<when state="greek" output="&#x3BE;" />
+			<when state="s_greek" output="&#x3BE;" next="s_greek" />
+			<when state="cedilla" output="g&#x327;" />
+			<when state="grave" output="g&#x300;" />
+			<when state="acute" output="&#x1F5;" />
+			<when state="circumflex" output="&#x11D;" />
+			<when state="tilde" output="g&#x303;" />
+			<when state="diaeresis" output="g&#x308;" />
+			<when state="ring" output="g&#x30A;" />
+			<when state="macron" output="&#x1E21;" />
+			<when state="breve" output="&#x11F;" />
+			<when state="overcomma" output="&#x123;" />
+			<when state="overdot" output="&#x121;" />
+			<when state="ogonek" output="g&#x328;" />
+			<when state="double_grave" output="g&#x30F;" />
+			<when state="double_acute" output="g&#x30B;" />
+			<when state="caron" output="&#x1E7;" />
+			<when state="hoi" output="g&#x309;" />
+			<when state="bar" output="g&#x335;" />
+			<when state="underbar" output="g&#x331;" />
+			<when state="arch" output="g&#x311;" />
+			<when state="undercomma" output="&#x123;" />
+			<when state="underdot" output="g&#x323;" />
+		</action>
+		<action id="opt_g">
+			<when state="none" next="greek" />
+			<when state="greek" next="s_greek" />
+		</action>
+		<action id="h">
+			<when state="none" output="h" />
+			<when state="greek" output="&#x3B7;" />
+			<when state="s_greek" output="&#x3B7;" next="s_greek" />
+			<when state="space" output="&#x200A;" />
+			<when state="cedilla" output="&#x1E29;" />
+			<when state="grave" output="h&#x300;" />
+			<when state="acute" output="h&#x301;" />
+			<when state="circumflex" output="&#x125;" />
+			<when state="tilde" output="h&#x303;" />
+			<when state="diaeresis" output="&#x1E27;" />
+			<when state="ring" output="h&#x30A;" />
+			<when state="macron" output="h&#x304;" />
+			<when state="breve" output="h&#x306;" />
+			<when state="overcomma" output="h&#x313;" />
+			<when state="overdot" output="&#x1E23;" />
+			<when state="ogonek" output="h&#x328;" />
+			<when state="double_grave" output="h&#x30F;" />
+			<when state="double_acute" output="h&#x30B;" />
+			<when state="caron" output="&#x21F;" />
+			<when state="hoi" output="h&#x309;" />
+			<when state="bar" output="&#x127;" />
+			<when state="underbar" output="&#x1E96;" />
+			<when state="arch" output="h&#x311;" />
+			<when state="undercomma" output="h&#x326;" />
+			<when state="underdot" output="&#x1E25;&#xA;" />
+			<when state="dots" output="&#x2027;" />
+			<when state="keyboard" output="?&#x20DD;" />
+			<when state="s_keyboard" output="?&#x20DD;" next="s_keyboard" />
+		</action>
+		<action id="i">
+			<when state="none" output="i" />
+			<when state="greek" output="&#x3B9;" />
+			<when state="s_greek" output="&#x3B9;" next="s_greek" />
+			<when state="ligatures" next="ligatures_i" />
+			<when state="ligatures_f" output="&#xFB01;" />
+			<when state="ligatures_ff" output="&#xFB03;" />
+			<when state="numerals" next="numerals_i" />
+			<when state="numerals_i" next="numerals_ii" />
+			<when state="numerals_ii" output="&#x2172;" />
+			<when state="numerals_v" next="numerals_vi" />
+			<when state="numerals_vi" next="numerals_vii" />
+			<when state="numerals_vii" output="&#x2177;" />
+			<when state="numerals_x" next="numerals_xi" />
+			<when state="numerals_xi" output="&#x217B;" />
+			<when state="superscripts" output="&#x2071;" />
+			<when state="s_superscripts" output="&#x2071;" next="s_superscripts" />
+			<when state="cedilla" output="i&#x327;" />
+			<when state="grave" output="&#xEC;" />
+			<when state="acute" output="&#xED;" />
+			<when state="circumflex" output="&#xEE;" />
+			<when state="tilde" output="&#x129;" />
+			<when state="diaeresis" output="&#xEF;" />
+			<when state="ring" output="i&#x30A;" />
+			<when state="macron" output="&#x12B;" />
+			<when state="breve" output="&#x12D;" />
+			<when state="overcomma" output="i&#x313;" />
+			<when state="overdot" output="i&#x307;" />
+			<when state="ogonek" output="&#x12F;" />
+			<when state="double_grave" output="&#x209;" />
+			<when state="double_acute" output="i&#x30B;" />
+			<when state="caron" output="&#x1D0;" />
+			<when state="hoi" output="&#x1EC9;" />
+			<when state="bar" output="i&#x335;" />
+			<when state="underbar" output="i&#x331;" />
+			<when state="arch" output="&#x20B;" />
+			<when state="undercomma" output="i&#x326;" />
+			<when state="underdot" output="&#x1ECB;" />
+			<when state="math" output="&#x2229;" />
+		</action>
+		<action id="j">
+			<when state="none" output="j" />
+			<when state="ligatures_i" output="&#x133;" />
+			<when state="ligatures_l" output="&#x1C9;" />
+			<when state="ligatures_L" output="&#x1C8;" />
+			<when state="ligatures_n" output="&#x1CC;" />
+			<when state="ligatures_N" output="&#x1CB;" />
+			<when state="cedilla" output="j&#x327;" />
+			<when state="grave" output="j&#x300;" />
+			<when state="acute" output="j&#x301;" />
+			<when state="circumflex" output="&#x135;" />
+			<when state="tilde" output="j&#x303;" />
+			<when state="diaeresis" output="j&#x308;" />
+			<when state="ring" output="j&#x30A;" />
+			<when state="macron" output="j&#x304;" />
+			<when state="breve" output="j&#x306;" />
+			<when state="overcomma" output="j&#x313;" />
+			<when state="overdot" output="j&#x307;" />
+			<when state="ogonek" output="j&#x328;" />
+			<when state="double_grave" output="j&#x30F;" />
+			<when state="double_acute" output="j&#x30B;" />
+			<when state="caron" output="&#x1F0;" />
+			<when state="hoi" output="j&#x309;" />
+			<when state="bar" output="j&#x335;" />
+			<when state="underbar" output="j&#x331;" />
+			<when state="arch" output="j&#x311;" />
+			<when state="undercomma" output="j&#x326;" />
+			<when state="underdot" output="j&#x323;" />
+			<when state="keyboard" output="&#x23CF;" />
+			<when state="s_keyboard" output="&#x23CF;" next="s_keyboard" />
+		</action>
+		<action id="k">
+			<when state="none" output="k" />
+			<when state="greek" output="&#x3BA;" />
+			<when state="s_greek" output="&#x3BA;" next="s_greek" />
+			<when state="currency" next="currency_k" />
+			<when state="cedilla" output="k&#x327;" />
+			<when state="grave" output="k&#x300;" />
+			<when state="acute" output="&#x1E31;" />
+			<when state="circumflex" output="k&#x302;" />
+			<when state="tilde" output="k&#x303;" />
+			<when state="diaeresis" output="k&#x308;" />
+			<when state="ring" output="k&#x30A;" />
+			<when state="macron" output="k&#x304;" />
+			<when state="breve" output="k&#x306;" />
+			<when state="overcomma" output="k&#x313;" />
+			<when state="overdot" output="k&#x307;" />
+			<when state="ogonek" output="k&#x328;" />
+			<when state="double_grave" output="k&#x30F;" />
+			<when state="double_acute" output="k&#x30B;" />
+			<when state="caron" output="&#x1E9;" />
+			<when state="hoi" output="k&#x309;" />
+			<when state="bar" output="k&#x335;" />
+			<when state="underbar" output="&#x1E35;" />
+			<when state="arch" output="k&#x311;" />
+			<when state="undercomma" output="&#x137;" />
+			<when state="underdot" output="&#x1E33;" />
+		</action>
+		<action id="opt_k">
+			<when state="none" next="keyboard" />
+			<when state="keyboard" next="s_keyboard" />
+		</action>
+		<action id="l">
+			<when state="none" output="l" />
+			<when state="greek" output="&#x3BB;" />
+			<when state="s_greek" output="&#x3BB;" next="s_greek" />
+			<when state="space" output="&#x200E;" />
+			<when state="ligatures" next="ligatures_l" />
+			<when state="ligatures_f" output="&#xFB02;" />
+			<when state="ligatures_ff" output="&#xFB04;" />
+			<when state="currency" output="&#x20A4;" />
+			<when state="numerals" output="&#x217C;" />
+			<when state="cedilla" output="l&#x327;" />
+			<when state="grave" output="l&#x300;" />
+			<when state="acute" output="&#x13A;" />
+			<when state="circumflex" output="l&#x302;" />
+			<when state="tilde" output="l&#x303;" />
+			<when state="diaeresis" output="l&#x308;" />
+			<when state="ring" output="l&#x30A;" />
+			<when state="macron" output="l&#x304;" />
+			<when state="breve" output="l&#x306;" />
+			<when state="overcomma" output="&#x13E;" />
+			<when state="overdot" output="l&#x307;" />
+			<when state="ogonek" output="l&#x328;" />
+			<when state="double_grave" output="l&#x30F;" />
+			<when state="double_acute" output="l&#x30B;" />
+			<when state="caron" output="&#x13E;" />
+			<when state="hoi" output="l&#x309;" />
+			<when state="bar" output="&#x19A;" />
+			<when state="underbar" output="&#x1E3B;" />
+			<when state="arch" output="l&#x311;" />
+			<when state="undercomma" output="&#x13C;" />
+			<when state="underdot" output="&#x1E37;" />
+			<when state="symbols_c" output="&#x2104;" />
+			<when state="symbols_p" output="&#x214A;" />
+			<when state="symbols_P" output="&#x214A;" />
+			<when state="math" output="&#x2220;" />
+			<when state="keyboard" output="&#x2303;" />
+			<when state="s_keyboard" output="&#x2303;" next="s_keyboard" />
+		</action>
+		<action id="opt_l">
+			<when state="none" next="ligatures" />
+			<when state="currency" output="&#x20B0;" />
+			<when state="math" output="&#x2221;" />
+			<when state="space" output="&#x202A;" />
+		</action>
+		<action id="m">
+			<when state="none" output="m" />
+			<when state="greek" output="&#x3BC;" />
+			<when state="s_greek" output="&#x3BC;" next="s_greek" />
+			<when state="currency" next="currency_m" />
+			<when state="space" output="&#x2003;" />
+			<when state="numerals" output="&#x217F;" />
+			<when state="cedilla" output="m&#x327;" />
+			<when state="grave" output="m&#x300;" />
+			<when state="acute" output="&#x1E3F;" />
+			<when state="circumflex" output="m&#x302;" />
+			<when state="tilde" output="m&#x303;" />
+			<when state="diaeresis" output="m&#x308;" />
+			<when state="ring" output="m&#x30A;" />
+			<when state="macron" output="m&#x304;" />
+			<when state="breve" output="m&#x306;" />
+			<when state="overcomma" output="m&#x313;" />
+			<when state="overdot" output="&#x1E41;" />
+			<when state="ogonek" output="m&#x328;" />
+			<when state="double_grave" output="m&#x30F;" />
+			<when state="double_acute" output="m&#x30B;" />
+			<when state="caron" output="m&#x30C;" />
+			<when state="hoi" output="m&#x309;" />
+			<when state="bar" output="m&#x335;" />
+			<when state="underbar" output="m&#x331;" />
+			<when state="arch" output="m&#x311;" />
+			<when state="undercomma" output="m&#x326;" />
+			<when state="underdot" output="&#x1E43;" />
+			<when state="symbols_s" output="&#x2120;" />
+			<when state="symbols_t" output="&#x2122;" />
+			<when state="symbols_T" output="&#x2122;" />
+			<when state="dashes" output="&#x2014;" />
+			<when state="dots" output="&#xB7;" />
+			<when state="keyboard" output="&#x2318;" />
+			<when state="s_keyboard" output="&#x2318;" next="s_keyboard" />
+		</action>
+		<action id="opt_m">
+			<when state="none" next="math" />
+			<when state="math" output="&#x2248;" />
+			<when state="space" output="&#x2001;" />
+		</action>
+		<action id="n">
+			<when state="none" output="n" />
+			<when state="ligatures" next="ligatures_n" />
+			<when state="greek" output="&#x3BD;" />
+			<when state="s_greek" output="&#x3BD;" next="s_greek" />
+			<when state="currency" next="currency_n" />
+			<when state="space" output="&#x2002;" />
+			<when state="superscripts" output="&#x207F;" />
+			<when state="s_superscripts" output="&#x207F;" next="s_superscripts" />
+			<when state="cedilla" output="n&#x327;" />
+			<when state="grave" output="&#x1F9;" />
+			<when state="acute" output="&#x144;" />
+			<when state="circumflex" output="n&#x302;" />
+			<when state="tilde" output="n&#x303;" />
+			<when state="diaeresis" output="n&#x308;" />
+			<when state="ring" output="n&#x30A;" />
+			<when state="macron" output="n&#x304;" />
+			<when state="breve" output="n&#x306;" />
+			<when state="overcomma" output="n&#x313;" />
+			<when state="overdot" output="&#x1E45;" />
+			<when state="ogonek" output="n&#x328;" />
+			<when state="double_grave" output="n&#x30F;" />
+			<when state="double_acute" output="n&#x30B;" />
+			<when state="caron" output="&#x148;" />
+			<when state="hoi" output="n&#x309;" />
+			<when state="bar" output="n&#x335;" />
+			<when state="underbar" output="&#x1E49;" />
+			<when state="arch" output="n&#x311;" />
+			<when state="undercomma" output="&#x146;" />
+			<when state="underdot" output="&#x1E47;" />
+			<when state="symbols" next="symbols_n" />
+			<when state="dashes" output="&#x2013;" />
+			<when state="math" output="&#xAC;" />
+			<when state="keyboard" output="&#x2324;" />
+			<when state="s_keyboard" output="&#x2324;" next="s_keyboard" />
+		</action>
+		<action id="opt_n">
+			<when state="none" output="" />
+			<when state="space" output="&#x2000;" />
+		</action>
+		<action id="o">
+			<when state="none" output="o" />
+			<when state="greek" output="&#x3BF;" />
+			<when state="s_greek" output="&#x3BF;" next="s_greek" />
+			<when state="ligatures" next="ligatures_o" />
+			<when state="ligatures_c" output="&#x2105;" />
+			<when state="ligatures_c_slash" output="&#x2105;" />
+			<when state="ligatures_C" output="&#x2105;" />
+			<when state="ligatures_C_slash" output="&#x2105;" />
+			<when state="currency" output="&#xA4;" />
+			<when state="superscripts" output="&#xBA;" />
+			<when state="s_superscripts" output="&#xBA;" next="s_superscripts" />
+			<when state="cedilla" output="o&#x327;" />
+			<when state="grave" output="&#xF2;" />
+			<when state="acute" output="&#xF3;" />
+			<when state="circumflex" output="&#xF4;" />
+			<when state="tilde" output="&#xF5;" />
+			<when state="diaeresis" output="&#xF6;" />
+			<when state="ring" output="o&#x30A;" />
+			<when state="macron" output="&#x14D;" />
+			<when state="breve" output="&#x14F;" />
+			<when state="overcomma" output="o&#x313;" />
+			<when state="overdot" output="&#x22F;" />
+			<when state="ogonek" output="&#x1EB;" />
+			<when state="double_grave" output="&#x20D;" />
+			<when state="double_acute" output="&#x151;" />
+			<when state="caron" output="&#x1D2;" />
+			<when state="hoi" output="&#x1ECF;" />
+			<when state="bar" output="o&#x335;" />
+			<when state="underbar" output="o&#x331;" />
+			<when state="arch" output="&#x20F;" />
+			<when state="undercomma" output="o&#x326;" />
+			<when state="underdot" output="&#x1ECD;" />
+			<when state="symbols" output="&#xA4;" />
+			<when state="symbols_n" output="&#x2116;" />
+			<when state="math" output="&#x2228;" />
+			<when state="keyboard" output="&#x2325;" />
+			<when state="s_keyboard" output="&#x2325;" next="s_keyboard" />
+		</action>
+		<action id="opt_o">
+			<when state="none" next="dots" />
+		</action>
+		<action id="p">
+			<when state="none" output="p" />
+			<when state="greek" output="&#x3C0;" />
+			<when state="s_greek" output="&#x3C0;" next="s_greek" />
+			<when state="currency" next="currency_p" />
+			<when state="currency_d" output="&#x20AF;" />
+			<when state="currency_D" output="&#x20AF;" />
+			<when state="space" output="&#x2008;" />
+			<when state="cedilla" output="p&#x327;" />
+			<when state="grave" output="p&#x300;" />
+			<when state="acute" output="&#x1E55;" />
+			<when state="circumflex" output="p&#x302;" />
+			<when state="tilde" output="p&#x303;" />
+			<when state="diaeresis" output="p&#x308;" />
+			<when state="ring" output="p&#x30A;" />
+			<when state="macron" output="p&#x304;" />
+			<when state="breve" output="p&#x306;" />
+			<when state="overcomma" output="p&#x313;" />
+			<when state="overdot" output="&#x1E57;" />
+			<when state="ogonek" output="p&#x328;" />
+			<when state="double_grave" output="p&#x30F;" />
+			<when state="double_acute" output="p&#x30B;" />
+			<when state="caron" output="p&#x30C;" />
+			<when state="hoi" output="p&#x309;" />
+			<when state="bar" output="p&#x335;" />
+			<when state="underbar" output="p&#x331;" />
+			<when state="arch" output="p&#x311;" />
+			<when state="undercomma" output="p&#x326;" />
+			<when state="underdot" output="p&#x323;" />
+			<when state="symbols" next="symbols_p" />
+			<when state="math" output="&#x221D;" />
+			<when state="keyboard" output="&#x233D;" />
+			<when state="s_keyboard" output="&#x233D;" next="s_keyboard" />
+		</action>
+		<action id="opt_p">
+			<when state="none" output="" />
+			<when state="symbols" output="&#x2117;" />
+		</action>
+		<action id="q">
+			<when state="none" output="q" />
+			<when state="greek" output="&#x3C9;" />
+			<when state="s_greek" output="&#x3C9;" next="s_greek" />
+			<when state="cedilla" output="q&#x327;" />
+			<when state="grave" output="q&#x300;" />
+			<when state="acute" output="q&#x301;" />
+			<when state="circumflex" output="q&#x302;" />
+			<when state="tilde" output="q&#x303;" />
+			<when state="diaeresis" output="q&#x308;" />
+			<when state="ring" output="q&#x30A;" />
+			<when state="macron" output="q&#x304;" />
+			<when state="breve" output="q&#x306;" />
+			<when state="overcomma" output="q&#x313;" />
+			<when state="overdot" output="q&#x307;" />
+			<when state="ogonek" output="q&#x328;" />
+			<when state="double_grave" output="q&#x30F;" />
+			<when state="double_acute" output="q&#x30B;" />
+			<when state="caron" output="q&#x30C;" />
+			<when state="hoi" output="q&#x309;" />
+			<when state="bar" output="q&#x335;" />
+			<when state="underbar" output="q&#x331;" />
+			<when state="arch" output="q&#x311;" />
+			<when state="undercomma" output="q&#x326;" />
+			<when state="underdot" output="q&#x323;" />
+		</action>
+		<action id="r">
+			<when state="none" output="r" />
+			<when state="space" output="&#x200F;" />
+			<when state="ligatures" next="ligatures_r" />
+			<when state="greek" output="&#x3C1;" />
+			<when state="s_greek" output="&#x3C1;" next="s_greek" />
+			<when state="currency" next="currency_r" />
+			<when state="currency_c" output="&#x20A2;" />
+			<when state="currency_f" output="&#x20A3;" />
+			<when state="cedilla" output="r&#x327;" />
+			<when state="grave" output="r&#x300;" />
+			<when state="acute" output="&#x155;" />
+			<when state="circumflex" output="r&#x302;" />
+			<when state="tilde" output="r&#x303;" />
+			<when state="diaeresis" output="r&#x308;" />
+			<when state="ring" output="r&#x30A;" />
+			<when state="macron" output="r&#x304;" />
+			<when state="breve" output="r&#x306;" />
+			<when state="overcomma" output="r&#x313;" />
+			<when state="overdot" output="&#x1E59;" />
+			<when state="ogonek" output="r&#x328;" />
+			<when state="double_grave" output="&#x211;" />
+			<when state="double_acute" output="r&#x30B;" />
+			<when state="caron" output="&#x159;" />
+			<when state="hoi" output="r&#x309;" />
+			<when state="bar" output="r&#x335;" />
+			<when state="underbar" output="r&#x331;" />
+			<when state="arch" output="&#x213;" />
+			<when state="undercomma" output="&#x1E5F;" />
+			<when state="underdot" output="&#x1E5B;" />
+			<when state="symbols" output="&#xAE;" />
+			<when state="keyboard" output="&#x21A9;" />
+			<when state="s_keyboard" output="&#x21A9;" next="s_keyboard" />
+		</action>
+		<action id="opt_r">
+			<when state="none" next="numerals" />
+			<when state="space" output="&#x202B;" />
+		</action>
+		<action id="opt_s">
+			<when state="none" output="&#x17F;" />
+			<when state="ligatures" next="ligatures_long_s" />
+		</action>
+		<action id="s">
+			<when state="none" output="s" />
+			<when state="ligatures_a" output="&#x2101;" />
+			<when state="ligatures_a_slash" output="&#x2101;" />
+			<when state="ligatures_A" output="&#x2101;" />
+			<when state="ligatures_A_slash" output="&#x2101;" />
+			<when state="ligatures" next="ligatures_s" />
+			<when state="ligatures_long_s" output="&#xDF;" />
+			<when state="greek" output="&#x3C3;" />
+			<when state="s_greek" output="&#x3C3;" next="s_greek" />
+			<when state="currency_r" output="&#x20A8;" />
+			<when state="currency_pt" output="&#x20A7;" />
+			<when state="cedilla" output="&#x15F;" />
+			<when state="grave" output="s&#x300;" />
+			<when state="acute" output="&#x15B;" />
+			<when state="circumflex" output="&#x15D;" />
+			<when state="tilde" output="s&#x303;" />
+			<when state="diaeresis" output="s&#x308;" />
+			<when state="ring" output="s&#x30A;" />
+			<when state="macron" output="s&#x304;" />
+			<when state="breve" output="&#x161;" />
+			<when state="overcomma" output="s&#x313;" />
+			<when state="overdot" output="&#x1E61;" />
+			<when state="ogonek" output="s&#x328;" />
+			<when state="double_grave" output="s&#x30F;" />
+			<when state="double_acute" output="s&#x30B;" />
+			<when state="caron" output="s&#x30C;" />
+			<when state="hoi" output="s&#x309;" />
+			<when state="bar" output="s&#x335;" />
+			<when state="underbar" output="s&#x331;" />
+			<when state="arch" output="s&#x311;" />
+			<when state="undercomma" output="&#x219;" />
+			<when state="underdot" output="&#x1E63;" />
+			<when state="symbols" next="symbols_s" />
+			<when state="math" next="integral" />
+			<when state="integral" next="double_integral" />
+			<when state="double_integral" output="&#x222D;" />
+			<when state="keyboard" output="&#x21E7;" />
+			<when state="s_keyboard" output="&#x21E7;" next="s_keyboard" />
+		</action>
+		<action id="t">
+			<when state="none" output="t" />
+			<when state="ligatures_s" output="&#xFB06;" />
+			<when state="greek" output="&#x3C4;" />
+			<when state="s_greek" output="&#x3C4;" next="s_greek" />
+			<when state="currency" next="currency_t" />
+			<when state="currency_p" next="currency_pt" />
+			<when state="space" output="&#x2009;" />
+			<when state="cedilla" output="&#x163;" />
+			<when state="grave" output="t&#x300;" />
+			<when state="acute" output="t&#x301;" />
+			<when state="circumflex" output="t&#x302;" />
+			<when state="tilde" output="t&#x303;" />
+			<when state="diaeresis" output="&#x1E97;" />
+			<when state="ring" output="t&#x30A;" />
+			<when state="macron" output="t&#x304;" />
+			<when state="breve" output="t&#x306;" />
+			<when state="overcomma" output="&#x165;" />
+			<when state="overdot" output="&#x1E6B;" />
+			<when state="ogonek" output="t&#x328;" />
+			<when state="double_grave" output="t&#x30F;" />
+			<when state="double_acute" output="t&#x30B;" />
+			<when state="caron" output="&#x165;" />
+			<when state="hoi" output="t&#x309;" />
+			<when state="bar" output="t&#x335;" />
+			<when state="underbar" output="&#x1E6F;" />
+			<when state="arch" output="t&#x311;" />
+			<when state="undercomma" output="&#x21B;" />
+			<when state="underdot" output="&#x1E6D;" />
+			<when state="symbols" next="symbols_t" />
+			<when state="dots" output="&#x2023;" />
+			<when state="keyboard" output="&#x21E5;" />
+			<when state="s_keyboard" output="&#x21E5;" next="s_keyboard" />
+		</action>
+		<action id="u">
+			<when state="none" output="u" />
+			<when state="ligatures_c" output="&#x2106;" />
+			<when state="ligatures_c_slash" output="&#x2106;" />
+			<when state="ligatures_C" output="&#x2106;" />
+			<when state="ligatures_C_slash" output="&#x2106;" />
+			<when state="greek" output="&#x3C5;" />
+			<when state="s_greek" output="&#x3C5;" next="s_greek" />
+			<when state="cedilla" output="u&#x327;" />
+			<when state="grave" output="&#xF9;" />
+			<when state="acute" output="&#xFA;" />
+			<when state="circumflex" output="&#xFB;" />
+			<when state="tilde" output="&#x169;" />
+			<when state="diaeresis" output="&#xFC;" />
+			<when state="ring" output="&#x16F;" />
+			<when state="macron" output="&#x16B;" />
+			<when state="breve" output="&#x16D;" />
+			<when state="overcomma" output="u&#x313;" />
+			<when state="overdot" output="u&#x307;" />
+			<when state="ogonek" output="&#x173;" />
+			<when state="double_grave" output="&#x215;" />
+			<when state="double_acute" output="&#x171;" />
+			<when state="caron" output="&#x1D4;" />
+			<when state="hoi" output="&#x1EE7;" />
+			<when state="bar" output="u&#x335;" />
+			<when state="underbar" output="u&#x331;" />
+			<when state="arch" output="&#x217;" />
+			<when state="undercomma" output="u&#x326;" />
+			<when state="underdot" output="&#x1EE5;" />
+			<when state="math" output="&#x222A;" />
+		</action>
+		<action id="opt_u">
+			<when state="none" next="superscripts" />
+			<when state="superscripts" next="s_superscripts" />
+		</action>
+		<action id="v">
+			<when state="none" output="v" />
+			<when state="numerals" next="numerals_v" />
+			<when state="numerals_i" output="&#x2173;" />
+			<when state="cedilla" output="v&#x327;" />
+			<when state="grave" output="v&#x300;" />
+			<when state="acute" output="v&#x301;" />
+			<when state="circumflex" output="v&#x302;" />
+			<when state="tilde" output="&#x1E7D;" />
+			<when state="diaeresis" output="v&#x308;" />
+			<when state="ring" output="v&#x30A;" />
+			<when state="macron" output="v&#x304;" />
+			<when state="breve" output="v&#x306;" />
+			<when state="overcomma" output="v&#x313;" />
+			<when state="overdot" output="v&#x307;" />
+			<when state="ogonek" output="v&#x328;" />
+			<when state="double_grave" output="v&#x30F;" />
+			<when state="double_acute" output="v&#x30B;" />
+			<when state="caron" output="v&#x30C;" />
+			<when state="hoi" output="v&#x309;" />
+			<when state="bar" output="v&#x335;" />
+			<when state="underbar" output="v&#x331;" />
+			<when state="arch" output="v&#x311;" />
+			<when state="undercomma" output="v&#x326;" />
+			<when state="underdot" output="&#x1E7F;" />
+			<when state="math" output="&#xF7;" />
+		</action>
+		<action id="w">
+			<when state="none" output="w" />
+			<when state="greek" output="&#x3C6;" />
+			<when state="s_greek" output="&#x3C6;" next="s_greek" />
+			<when state="currency" next="currency_w" />
+			<when state="cedilla" output="w&#x327;" />
+			<when state="grave" output="&#x1E81;" />
+			<when state="acute" output="&#x1E83;" />
+			<when state="circumflex" output="&#x175;" />
+			<when state="tilde" output="w&#x303;" />
+			<when state="diaeresis" output="&#x1E85;" />
+			<when state="ring" output="&#x1E98;" />
+			<when state="macron" output="w&#x304;" />
+			<when state="breve" output="w&#x306;" />
+			<when state="overcomma" output="w&#x313;" />
+			<when state="overdot" output="&#x1E87;" />
+			<when state="ogonek" output="w&#x328;" />
+			<when state="double_grave" output="w&#x30F;" />
+			<when state="double_acute" output="w&#x30B;" />
+			<when state="caron" output="w&#x30C;" />
+			<when state="hoi" output="w&#x309;" />
+			<when state="bar" output="w&#x335;" />
+			<when state="underbar" output="w&#x331;" />
+			<when state="arch" output="w&#x311;" />
+			<when state="undercomma" output="w&#x326;" />
+			<when state="underdot" output="&#x1E89;" />
+		</action>
+		<action id="x">
+			<when state="none" output="x" />
+			<when state="ligatures_r" output="&#x211E;" />
+			<when state="ligatures_R" output="&#x211E;" />
+			<when state="greek" output="&#x3C7;" />
+			<when state="s_greek" output="&#x3C7;" next="s_greek" />
+			<when state="numerals" next="numerals_x" />
+			<when state="numerals_i" output="&#x2178;" />
+			<when state="cedilla" output="x&#x327;" />
+			<when state="grave" output="x&#x300;" />
+			<when state="acute" output="x&#x301;" />
+			<when state="circumflex" output="x&#x302;" />
+			<when state="tilde" output="x&#x303;" />
+			<when state="diaeresis" output="&#x1E8D;" />
+			<when state="ring" output="x&#x30A;" />
+			<when state="macron" output="x&#x304;" />
+			<when state="breve" output="x&#x306;" />
+			<when state="overcomma" output="x&#x313;" />
+			<when state="overdot" output="&#x1E8B;" />
+			<when state="ogonek" output="x&#x328;" />
+			<when state="double_grave" output="x&#x30F;" />
+			<when state="double_acute" output="x&#x30B;" />
+			<when state="caron" output="x&#x30C;" />
+			<when state="hoi" output="x&#x309;" />
+			<when state="bar" output="x&#x335;" />
+			<when state="underbar" output="x&#x331;" />
+			<when state="arch" output="x&#x311;" />
+			<when state="undercomma" output="x&#x326;" />
+			<when state="underdot" output="x&#x323;" />
+			<when state="math" output="&#xD7;" />
+			<when state="keyboard" output="&#x2327;" />
+			<when state="s_keyboard" output="&#x2327;" next="s_keyboard" />
+		</action>
+		<action id="y">
+			<when state="none" output="y" />
+			<when state="currency" output="&#xA5;" />
+			<when state="greek" output="&#x3C8;" />
+			<when state="s_greek" output="&#x3C8;" next="s_greek" />
+			<when state="cedilla" output="y&#x327;" />
+			<when state="grave" output="&#x1EF3;" />
+			<when state="acute" output="&#xFD;" />
+			<when state="circumflex" output="&#x177;" />
+			<when state="tilde" output="&#x1EF9;" />
+			<when state="diaeresis" output="&#xFF;" />
+			<when state="ring" output="&#x1E99;" />
+			<when state="macron" output="&#x233;" />
+			<when state="breve" output="y&#x306;" />
+			<when state="overcomma" output="y&#x313;" />
+			<when state="overdot" output="&#x1E8F;" />
+			<when state="ogonek" output="y&#x328;" />
+			<when state="double_grave" output="y&#x30F;" />
+			<when state="double_acute" output="y&#x30B;" />
+			<when state="caron" output="y&#x30C;" />
+			<when state="hoi" output="&#x1EF7;" />
+			<when state="bar" output="y&#x335;" />
+			<when state="underbar" output="y&#x331;" />
+			<when state="arch" output="y&#x311;" />
+			<when state="undercomma" output="y&#x326;" />
+			<when state="underdot" output="&#x1EF5;" />
+		</action>
+		<action id="opt_y">
+			<when state="none" next="symbols" />
+		</action>
+		<action id="z">
+			<when state="none" output="z" />
+			<when state="greek" output="&#x3B6;" />
+			<when state="s_greek" output="&#x3B6;" next="s_greek" />
+			<when state="cedilla" output="z&#x327;" />
+			<when state="grave" output="z&#x300;" />
+			<when state="acute" output="&#x17A;" />
+			<when state="circumflex" output="&#x1E91;" />
+			<when state="tilde" output="z&#x303;" />
+			<when state="diaeresis" output="z&#x308;" />
+			<when state="ring" output="z&#x30A;" />
+			<when state="macron" output="z&#x304;" />
+			<when state="breve" output="z&#x306;" />
+			<when state="overcomma" output="z&#x313;" />
+			<when state="overdot" output="&#x17C;" />
+			<when state="ogonek" output="z&#x328;" />
+			<when state="double_grave" output="z&#x30F;" />
+			<when state="double_acute" output="z&#x30B;" />
+			<when state="caron" output="&#x17E;" />
+			<when state="hoi" output="z&#x309;" />
+			<when state="bar" output="z&#x335;" />
+			<when state="underbar" output="&#x1E95;" />
+			<when state="arch" output="z&#x311;" />
+			<when state="undercomma" output="z&#x326;" />
+			<when state="underdot" output="&#x1E93;" />
+		</action>
+		
+		<!-- Uppercase alphabetic keys -->
+		<action id="A">
+			<when state="none" output="A" />
+			<when state="ligatures" next="ligatures_A" />
+			<when state="greek" output="&#x391;" />
+			<when state="s_greek" output="&#x391;" next="s_greek" />
+			<when state="superscripts" output="&#xAA;" />
+			<when state="s_superscripts" output="&#xAA;" next="s_superscripts" />
+			<when state="cedilla" output="A&#x327;" />
+			<when state="grave" output="&#xC0;" />
+			<when state="acute" output="&#xC1;" />
+			<when state="circumflex" output="&#xC2;" />
+			<when state="tilde" output="&#xC3;" />
+			<when state="diaeresis" output="&#xC4;" />
+			<when state="ring" output="&#xC5;" />
+			<when state="macron" output="&#x100;" />
+			<when state="breve" output="&#x102;" />
+			<when state="overcomma" output="A&#x313;" />
+			<when state="overdot" output="&#x226;" />
+			<when state="ogonek" output="A&#x328;" />
+			<when state="double_grave" output="&#x200;" />
+			<when state="double_acute" output="A&#x30B;" />
+			<when state="caron" output="&#x1CD;" />
+			<when state="hoi" output="&#x1EA2;" />
+			<when state="bar" output="A&#x335;" />
+			<when state="underbar" output="A&#x331;" />
+			<when state="arch" output="&#x202;" />
+			<when state="undercomma" output="A&#x326;" />
+			<when state="underdot" output="A&#x323;" />
+			<when state="math" output="&#x2227;" />
+			<when state="keyboard" output="&#xF8FF;" />
+			<when state="s_keyboard" output="&#xF8FF;" next="s_keyboard" />
+		</action>
+		<action id="B">
+			<when state="none" output="B" />
+			<when state="greek" output="&#x392;" />
+			<when state="s_greek" output="&#x392;" next="s_greek" />
+			<when state="cedilla" output="B&#x327;" />
+			<when state="grave" output="B&#x300;" />
+			<when state="acute" output="B&#x301;" />
+			<when state="circumflex" output="B&#x302;" />
+			<when state="tilde" output="B&#x303;" />
+			<when state="diaeresis" output="B&#x308;" />
+			<when state="ring" output="B&#x30A;" />
+			<when state="macron" output="B&#x304;" />
+			<when state="breve" output="B&#x306;" />
+			<when state="overcomma" output="B&#x313;" />
+			<when state="overdot" output="&#x1E02;" />
+			<when state="ogonek" output="B&#x328;" />
+			<when state="double_grave" output="B&#x30F;" />
+			<when state="double_acute" output="B&#x30B;" />
+			<when state="caron" output="B&#x30C;" />
+			<when state="hoi" output="B&#x309;" />
+			<when state="bar" output="B&#x335;" />
+			<when state="underbar" output="&#x1E06;" />
+			<when state="arch" output="B&#x311;" />
+			<when state="undercomma" output="B&#x326;" />
+			<when state="underdot" output="&#x1E04;" />
+			<when state="dashes" output="&#x2015;" />
+			<when state="dots" output="&#x2022;" />
+			<when state="keyboard" output="&#x232B;" />
+			<when state="s_keyboard" output="&#x232B;" next="s_keyboard" />
+		</action>
+		<action id="C">
+			<when state="none" output="C" />
+			<when state="ligatures" next="ligatures_c" />
+			<when state="ligatures_a" output="&#x2100;" />
+			<when state="ligatures_a_slash" output="&#x2100;" />
+			<when state="ligatures_A" output="&#x2100;" />
+			<when state="ligatures_A_slash" output="&#x2100;" />
+			<when state="greek" output="&#x393;" />
+			<when state="s_greek" output="&#x393;" next="s_greek" />
+			<when state="currency" next="currency_c" />
+			<when state="numerals" output="&#x216D;" />
+			<when state="cedilla" output="&#xC7;" />
+			<when state="grave" output="C&#x300;" />
+			<when state="acute" output="&#x106;" />
+			<when state="circumflex" output="&#x108;" />
+			<when state="tilde" output="C&#x303;" />
+			<when state="diaeresis" output="C&#x308;" />
+			<when state="ring" output="C&#x30A;" />
+			<when state="macron" output="C&#x304;" />
+			<when state="breve" output="C&#x306;" />
+			<when state="overcomma" output="C&#x313;" />
+			<when state="overdot" output="&#x10A;" />
+			<when state="ogonek" output="C&#x328;" />
+			<when state="double_grave" output="C&#x30F;" />
+			<when state="double_acute" output="C&#x30B;" />
+			<when state="caron" output="&#x10C;" />
+			<when state="hoi" output="C&#x309;" />
+			<when state="bar" output="C&#x335;" />
+			<when state="underbar" output="C&#x331;" />
+			<when state="arch" output="C&#x311;" />
+			<when state="undercomma" output="C&#x326;" />
+			<when state="underdot" output="C&#x323;" />
+			<when state="symbols" next="symbols_c" />
+			<when state="keyboard" output="&#x21EA;" />
+			<when state="s_keyboard" output="&#x21EA;" next="s_keyboard" />
+		</action>
+		<action id="D">
+			<when state="none" output="D" />
+			<when state="greek" output="&#x394;" />
+			<when state="s_greek" output="&#x394;" next="s_greek" />
+			<when state="currency" next="currency_D" />
+			<when state="numerals" output="&#x216E;" />
+			<when state="cedilla" output="D&#x327;" />
+			<when state="grave" output="D&#x300;" />
+			<when state="acute" output="D&#x301;" />
+			<when state="circumflex" output="D&#x302;" />
+			<when state="tilde" output="D&#x303;" />
+			<when state="diaeresis" output="D&#x308;" />
+			<when state="ring" output="D&#x30A;" />
+			<when state="macron" output="D&#x304;" />
+			<when state="breve" output="D&#x306;" />
+			<when state="overcomma" output="D&#x313;" />
+			<when state="overdot" output="&#x1E0A;" />
+			<when state="ogonek" output="D&#x328;" />
+			<when state="double_grave" output="D&#x30F;" />
+			<when state="double_acute" output="D&#x30B;" />
+			<when state="caron" output="&#x10E;" />
+			<when state="hoi" output="D&#x309;" />
+			<when state="bar" output="&#x110;" />
+			<when state="underbar" output="&#x1E0E;" />
+			<when state="arch" output="D&#x311;" />
+			<when state="undercomma" output="&#x1E10;" />
+			<when state="underdot" output="&#x1E0C;" />
+			<when state="symbols" output="&#xB0;" />
+			<when state="dots" output="&#xB0;" />
+			<when state="math" output="&#x2206;" />
+			<when state="keyboard" output="&#x2326;" />
+			<when state="s_keyboard" output="&#x2326;" next="s_keyboard" />
+		</action>
+		<action id="sh_opt_d">
+			<when state="none" output="" />
+			<when state="math" output="&#x2207;" />
+		</action>
+		<action id="E">
+			<when state="none" output="E" />
+			<when state="ligatures_A" output="&#xC6;" />
+			<when state="ligatures_O" output="&#x152;" />
+			<when state="greek" output="&#x395;" />
+			<when state="s_greek" output="&#x395;" next="s_greek" />
+			<when state="currency" output="&#x20AC;" />
+			<when state="currency_c" output="&#x20A0;" />
+			<when state="cedilla" output="&#x228;" />
+			<when state="grave" output="&#xC8;" />
+			<when state="acute" output="&#xC9;" />
+			<when state="circumflex" output="&#xCA;" />
+			<when state="tilde" output="&#x1EBC;" />
+			<when state="diaeresis" output="&#xCB;" />
+			<when state="ring" output="E&#x30A;" />
+			<when state="macron" output="&#x112;" />
+			<when state="breve" output="&#x114;" />
+			<when state="overcomma" output="E&#x313;" />
+			<when state="overdot" output="&#x116;" />
+			<when state="ogonek" output="&#x118;" />
+			<when state="double_grave" output="&#x204;" />
+			<when state="double_acute" output="E&#x30B;" />
+			<when state="caron" output="&#x11A;" />
+			<when state="hoi" output="&#x1EBA;" />
+			<when state="bar" output="E&#x335;" />
+			<when state="underbar" output="E&#x331;" />
+			<when state="arch" output="&#x206;" />
+			<when state="undercomma" output="E&#x326;" />
+			<when state="underdot" output="&#x1EB8;" />
+			<when state="math" output="&#x2211;" />
+			<when state="keyboard" output="&#x238B;" />
+			<when state="s_keyboard" output="&#x238B;" next="s_keyboard" />
+		</action>
+		<action id="F">
+			<when state="none" output="F" />
+			<when state="greek" output="&#x398;" />
+			<when state="s_greek" output="&#x398;" next="s_greek" />
+			<when state="currency" next="currency_f" />
+			<when state="space" output="&#x2007;" />
+			<when state="cedilla" output="F&#x327;" />
+			<when state="grave" output="F&#x300;" />
+			<when state="acute" output="F&#x301;" />
+			<when state="circumflex" output="F&#x302;" />
+			<when state="tilde" output="F&#x303;" />
+			<when state="diaeresis" output="F&#x308;" />
+			<when state="ring" output="F&#x30A;" />
+			<when state="macron" output="F&#x304;" />
+			<when state="breve" output="F&#x306;" />
+			<when state="overcomma" output="F&#x313;" />
+			<when state="overdot" output="&#x1E1E;" />
+			<when state="ogonek" output="F&#x328;" />
+			<when state="double_grave" output="F&#x30F;" />
+			<when state="double_acute" output="F&#x30B;" />
+			<when state="caron" output="F&#x30C;" />
+			<when state="hoi" output="F&#x309;" />
+			<when state="bar" output="F&#x335;" />
+			<when state="underbar" output="F&#x331;" />
+			<when state="arch" output="F&#x311;" />
+			<when state="undercomma" output="F&#x326;" />
+			<when state="underdot" output="F&#x323;" />
+			<when state="dashes" output="&#x2012;" />
+		</action>
+		<action id="G">
+			<when state="none" output="G" />
+			<when state="greek" output="&#x39E;" />
+			<when state="s_greek" output="&#x39E;" next="s_greek" />
+			<when state="cedilla" output="G&#x327;" />
+			<when state="grave" output="G&#x300;" />
+			<when state="acute" output="&#x1F4;" />
+			<when state="circumflex" output="&#x11C;" />
+			<when state="tilde" output="G&#x303;" />
+			<when state="diaeresis" output="G&#x308;" />
+			<when state="ring" output="G&#x30A;" />
+			<when state="macron" output="&#x1E20;" />
+			<when state="breve" output="&#x11E;" />
+			<when state="overcomma" output="G&#x313;" />
+			<when state="overdot" output="&#x120;" />
+			<when state="ogonek" output="G&#x328;" />
+			<when state="double_grave" output="G&#x30F;" />
+			<when state="double_acute" output="G&#x30B;" />
+			<when state="caron" output="&#x1E6;" />
+			<when state="hoi" output="G&#x309;" />
+			<when state="bar" output="G&#x335;" />
+			<when state="underbar" output="G&#x331;" />
+			<when state="arch" output="G&#x311;" />
+			<when state="undercomma" output="&#x122;" />
+			<when state="underdot" output="G&#x323;" />
+		</action>
+		<action id="H">
+			<when state="none" output="H" />
+			<when state="greek" output="&#x397;" />
+			<when state="s_greek" output="&#x397;" next="s_greek" />
+			<when state="space" output="&#x200A;" />
+			<when state="cedilla" output="H&#x327;" />
+			<when state="grave" output="H&#x300;" />
+			<when state="acute" output="H&#x301;" />
+			<when state="circumflex" output="&#x124;" />
+			<when state="tilde" output="H&#x303;" />
+			<when state="diaeresis" output="&#x1E26;" />
+			<when state="ring" output="H&#x30A;" />
+			<when state="macron" output="H&#x304;" />
+			<when state="breve" output="H&#x306;" />
+			<when state="overcomma" output="H&#x313;" />
+			<when state="overdot" output="&#x1E22;" />
+			<when state="ogonek" output="&#x1E28;" />
+			<when state="double_grave" output="H&#x30F;" />
+			<when state="double_acute" output="H&#x30B;" />
+			<when state="caron" output="&#x21E;" />
+			<when state="hoi" output="H&#x309;" />
+			<when state="bar" output="H&#x335;" />
+			<when state="underbar" output="H&#x331;" />
+			<when state="arch" output="H&#x311;" />
+			<when state="undercomma" output="&#x1E24;" />
+			<when state="underdot" output="H&#x323;" />
+			<when state="dots" output="&#x2027;" />
+			<when state="keyboard" output="?&#x20DD;" />
+			<when state="s_keyboard" output="?&#x20DD;" next="s_keyboard" />
+		</action>
+		<action id="I">
+			<when state="none" output="I" />
+			<when state="ligatures" next="ligatures_I" />
+			<when state="superscripts" output="&#x2071;" />
+			<when state="s_superscripts" output="&#x2071;" next="s_superscripts" />
+			<when state="greek" output="&#x399;" />
+			<when state="s_greek" output="&#x399;" next="s_greek" />
+			<when state="numerals" next="numerals_I" />
+			<when state="numerals_I" next="numerals_II" />
+			<when state="numerals_II" output="&#x2162;" />
+			<when state="numerals_V" next="numerals_VI" />
+			<when state="numerals_VI" next="numerals_VII" />
+			<when state="numerals_VII" output="&#x2167;" />
+			<when state="numerals_X" next="numerals_XI" />
+			<when state="numerals_XI" output="&#x216B;" />
+			<when state="cedilla" output="I&#x327;" />
+			<when state="grave" output="&#xCC;" />
+			<when state="acute" output="&#xCD;" />
+			<when state="circumflex" output="&#xCE;" />
+			<when state="tilde" output="&#x128;" />
+			<when state="diaeresis" output="&#xCF;" />
+			<when state="ring" output="I&#x30A;" />
+			<when state="macron" output="&#x12A;" />
+			<when state="breve" output="&#x12C;" />
+			<when state="overcomma" output="I&#x313;" />
+			<when state="overdot" output="&#x130;" />
+			<when state="ogonek" output="&#x12E;" />
+			<when state="double_grave" output="&#x208;" />
+			<when state="double_acute" output="I&#x30B;" />
+			<when state="caron" output="&#x1CF;" />
+			<when state="hoi" output="&#x1EC8;" />
+			<when state="bar" output="I&#x335;" />
+			<when state="underbar" output="I&#x331;" />
+			<when state="arch" output="&#x20A;" />
+			<when state="undercomma" output="I&#x326;" />
+			<when state="underdot" output="&#x1ECA;" />
+			<when state="math" output="&#x2229;" />
+		</action>
+		<action id="J">
+			<when state="none" output="J" />
+			<when state="ligatures_I" output="&#x132;" />
+			<when state="ligatures_L" output="&#x1C7;" />
+			<when state="ligatures_N" output="&#x1CA;" />
+			<when state="cedilla" output="J&#x327;" />
+			<when state="grave" output="J&#x300;" />
+			<when state="acute" output="J&#x301;" />
+			<when state="circumflex" output="&#x134;" />
+			<when state="tilde" output="J&#x303;" />
+			<when state="diaeresis" output="J&#x308;" />
+			<when state="ring" output="J&#x30A;" />
+			<when state="macron" output="J&#x304;" />
+			<when state="breve" output="J&#x306;" />
+			<when state="overcomma" output="J&#x313;" />
+			<when state="overdot" output="J&#x307;" />
+			<when state="ogonek" output="J&#x328;" />
+			<when state="double_grave" output="J&#x30F;" />
+			<when state="double_acute" output="J&#x30B;" />
+			<when state="caron" output="J&#x30C;" />
+			<when state="hoi" output="J&#x309;" />
+			<when state="bar" output="J&#x335;" />
+			<when state="underbar" output="J&#x331;" />
+			<when state="arch" output="J&#x311;" />
+			<when state="undercomma" output="J&#x326;" />
+			<when state="underdot" output="J&#x323;" />
+			<when state="keyboard" output="&#x23CF;" />
+			<when state="s_keyboard" output="&#x23CF;" next="s_keyboard" />
+		</action>
+		<action id="K">
+			<when state="none" output="K" />
+			<when state="greek" output="&#x39A;" />
+			<when state="s_greek" output="&#x39A;" next="s_greek" />
+			<when state="currency" next="currency_k" />
+			<when state="cedilla" output="K&#x327;" />
+			<when state="grave" output="K&#x300;" />
+			<when state="acute" output="&#x1E30;" />
+			<when state="circumflex" output="K&#x302;" />
+			<when state="tilde" output="K&#x303;" />
+			<when state="diaeresis" output="K&#x308;" />
+			<when state="ring" output="K&#x30A;" />
+			<when state="macron" output="K&#x304;" />
+			<when state="breve" output="K&#x306;" />
+			<when state="overcomma" output="K&#x313;" />
+			<when state="overdot" output="K&#x307;" />
+			<when state="ogonek" output="K&#x328;" />
+			<when state="double_grave" output="K&#x30F;" />
+			<when state="double_acute" output="K&#x30B;" />
+			<when state="caron" output="&#x1E8;" />
+			<when state="hoi" output="K&#x309;" />
+			<when state="bar" output="K&#x335;" />
+			<when state="underbar" output="&#x1E34;" />
+			<when state="arch" output="K&#x311;" />
+			<when state="undercomma" output="&#x136;" />
+			<when state="underdot" output="&#x1E32;" />
+		</action>
+		<action id="L">
+			<when state="none" output="L" />
+			<when state="space" output="&#x200E;" />
+			<when state="ligatures" next="ligatures_L" />
+			<when state="greek" output="&#x39B;" />
+			<when state="s_greek" output="&#x39B;" next="s_greek" />
+			<when state="numerals" output="&#x216C;" />
+			<when state="currency" output="&#x20A4;" />
+			<when state="cedilla" output="L&#x327;" />
+			<when state="grave" output="L&#x300;" />
+			<when state="acute" output="&#x139;" />
+			<when state="circumflex" output="L&#x302;" />
+			<when state="tilde" output="L&#x303;" />
+			<when state="diaeresis" output="L&#x308;" />
+			<when state="ring" output="L&#x30A;" />
+			<when state="macron" output="L&#x304;" />
+			<when state="breve" output="L&#x306;" />
+			<when state="overcomma" output="&#x13D;" />
+			<when state="overdot" output="L&#x307;" />
+			<when state="ogonek" output="L&#x328;" />
+			<when state="double_grave" output="L&#x30F;" />
+			<when state="double_acute" output="L&#x30B;" />
+			<when state="caron" output="&#x13D;" />
+			<when state="hoi" output="L&#x309;" />
+			<when state="bar" output="L&#x335;" />
+			<when state="underbar" output="&#x1E3A;" />
+			<when state="arch" output="L&#x311;" />
+			<when state="undercomma" output="&#x13B;" />
+			<when state="underdot" output="&#x1E36;" />
+			<when state="symbols_c" output="&#x2104;" />
+			<when state="symbols_p" output="&#x214A;" />
+			<when state="symbols_P" output="&#x214A;" />
+			<when state="math" output="&#x221F;" />
+			<when state="keyboard" output="&#x2303;" />
+			<when state="s_keyboard" output="&#x2303;" next="s_keyboard" />
+		</action>
+		<action id="sh_opt_l">
+			<when state="none" output="" />
+			<when state="math" output="&#x2222;" />
+			<when state="space" output="&#x202D;" />
+		</action>
+		<action id="M">
+			<when state="none" output="M" />
+			<when state="greek" output="&#x39C;" />
+			<when state="s_greek" output="&#x39C;" next="s_greek" />
+			<when state="currency" next="currency_m" />
+			<when state="numerals" output="&#x216F;" />
+			<when state="space" output="&#x2003;" />
+			<when state="cedilla" output="M&#x327;" />
+			<when state="grave" output="M&#x300;" />
+			<when state="acute" output="&#x1E3E;" />
+			<when state="circumflex" output="M&#x302;" />
+			<when state="tilde" output="M&#x303;" />
+			<when state="diaeresis" output="M&#x308;" />
+			<when state="ring" output="M&#x30A;" />
+			<when state="macron" output="M&#x304;" />
+			<when state="breve" output="M&#x306;" />
+			<when state="overcomma" output="M&#x313;" />
+			<when state="overdot" output="&#x1E40;" />
+			<when state="ogonek" output="M&#x328;" />
+			<when state="double_grave" output="M&#x30F;" />
+			<when state="double_acute" output="M&#x30B;" />
+			<when state="caron" output="M&#x30C;" />
+			<when state="hoi" output="M&#x309;" />
+			<when state="bar" output="M&#x335;" />
+			<when state="underbar" output="M&#x331;" />
+			<when state="arch" output="M&#x311;" />
+			<when state="undercomma" output="M&#x326;" />
+			<when state="underdot" output="&#x1E42;" />
+			<when state="symbols_s" output="&#x2120;" />
+			<when state="symbols_t" output="&#x2122;" />
+			<when state="symbols_T" output="&#x2122;" />
+			<when state="dashes" output="&#x2014;" />
+			<when state="dots" output="&#xB7;" />
+			<when state="keyboard" output="&#x2318;" />
+			<when state="s_keyboard" output="&#x2318;" next="s_keyboard" />
+		</action>
+		<action id="N">
+			<when state="none" output="N" />
+			<when state="ligatures" next="ligatures_N" />
+			<when state="greek" output="&#x39D;" />
+			<when state="s_greek" output="&#x39D;" next="s_greek" />
+			<when state="currency" next="currency_n" />
+			<when state="space" output="&#x2002;" />
+			<when state="superscripts" output="&#x207F;" />
+			<when state="s_superscripts" output="&#x207F;" next="s_superscripts" />
+			<when state="cedilla" output="N&#x327;" />
+			<when state="grave" output="&#x1F8;" />
+			<when state="acute" output="&#x143;" />
+			<when state="circumflex" output="N&#x302;" />
+			<when state="tilde" output="&#xD1;" />
+			<when state="diaeresis" output="N&#x308;" />
+			<when state="ring" output="N&#x30A;" />
+			<when state="macron" output="N&#x304;" />
+			<when state="breve" output="N&#x306;" />
+			<when state="overcomma" output="N&#x313;" />
+			<when state="overdot" output="&#x1E44;" />
+			<when state="ogonek" output="N&#x328;" />
+			<when state="double_grave" output="N&#x30F;" />
+			<when state="double_acute" output="N&#x30B;" />
+			<when state="caron" output="&#x147;" />
+			<when state="hoi" output="N&#x309;" />
+			<when state="bar" output="N&#x335;" />
+			<when state="underbar" output="&#x1E48;" />
+			<when state="arch" output="N&#x311;" />
+			<when state="undercomma" output="&#x145;" />
+			<when state="underdot" output="&#x1E46;" />
+			<when state="symbols" next="symbols_n" />
+			<when state="dashes" output="&#x2013;" />
+			<when state="math" output="&#xAC;" />
+			<when state="keyboard" output="&#x2324;" />
+			<when state="s_keyboard" output="&#x2324;" next="s_keyboard" />
+		</action>
+		<action id="O">
+			<when state="none" output="O" />
+			<when state="ligatures" next="ligatures_O" />
+			<when state="ligatures_c" output="&#x2105;" />
+			<when state="ligatures_c_slash" output="&#x2105;" />
+			<when state="ligatures_C" output="&#x2105;" />
+			<when state="ligatures_C_slash" output="&#x2105;" />
+			<when state="greek" output="&#x39F;" />
+			<when state="s_greek" output="&#x39F;" next="s_greek" />
+			<when state="currency" output="&#xA4;" />
+			<when state="superscripts" output="&#xBA;" />
+			<when state="s_superscripts" output="&#xBA;" next="s_superscripts" />
+			<when state="cedilla" output="O&#x327;" />
+			<when state="grave" output="&#xD2;" />
+			<when state="acute" output="&#xD3;" />
+			<when state="circumflex" output="&#xD4;" />
+			<when state="tilde" output="&#xD5;" />
+			<when state="diaeresis" output="&#xD6;" />
+			<when state="ring" output="O&#x30A;" />
+			<when state="macron" output="&#x14C;" />
+			<when state="breve" output="&#x14E;" />
+			<when state="overcomma" output="O&#x313;" />
+			<when state="overdot" output="&#x22E;" />
+			<when state="ogonek" output="&#x1EA;" />
+			<when state="double_grave" output="&#x20C;" />
+			<when state="double_acute" output="O&#x30B;" />
+			<when state="caron" output="&#x1D1;" />
+			<when state="hoi" output="&#x1ECE;" />
+			<when state="bar" output="O&#x335;" />
+			<when state="underbar" output="O&#x331;" />
+			<when state="arch" output="&#x20E;" />
+			<when state="undercomma" output="O&#x326;" />
+			<when state="underdot" output="&#x1ECC;" />
+			<when state="symbols" output="&#xA4;" />
+			<when state="symbols_n" output="&#x2116;" />
+			<when state="math" output="&#x2228;" />
+			<when state="keyboard" output="&#x2325;" />
+			<when state="s_keyboard" output="&#x2325;" next="s_keyboard" />
+		</action>
+		<action id="P">
+			<when state="none" output="P" />
+			<when state="greek" output="&#x3A0;" />
+			<when state="s_greek" output="&#x3A0;" next="s_greek" />
+			<when state="currency" next="currency_p" />
+			<when state="currency_d" output="&#x20AF;" />
+			<when state="currency_D" output="&#x20AF;" />
+			<when state="space" output="&#x2008;" />
+			<when state="cedilla" output="P&#x327;" />
+			<when state="grave" output="P&#x300;" />
+			<when state="acute" output="&#x1E54;" />
+			<when state="circumflex" output="P&#x302;" />
+			<when state="tilde" output="P&#x303;" />
+			<when state="diaeresis" output="P&#x308;" />
+			<when state="ring" output="P&#x30A;" />
+			<when state="macron" output="P&#x304;" />
+			<when state="breve" output="P&#x306;" />
+			<when state="overcomma" output="P&#x313;" />
+			<when state="overdot" output="&#x1E56;" />
+			<when state="ogonek" output="P&#x328;" />
+			<when state="double_grave" output="P&#x30F;" />
+			<when state="double_acute" output="P&#x30B;" />
+			<when state="caron" output="P&#x30C;" />
+			<when state="hoi" output="P&#x309;" />
+			<when state="bar" output="P&#x335;" />
+			<when state="underbar" output="P&#x331;" />
+			<when state="arch" output="P&#x311;" />
+			<when state="undercomma" output="P&#x326;" />
+			<when state="underdot" output="P&#x323;" />
+			<when state="symbols" next="symbols_P" />
+			<when state="math" output="&#x221D;" />
+			<when state="keyboard" output="&#x233D;" />
+			<when state="s_keyboard" output="&#x233D;" next="s_keyboard" />
+		</action>
+		<action id="Q">
+			<when state="none" output="Q" />
+			<when state="greek" output="&#x3A9;" />
+			<when state="s_greek" output="&#x3A9;" next="s_greek" />
+			<when state="cedilla" output="Q&#x327;" />
+			<when state="grave" output="Q&#x300;" />
+			<when state="acute" output="Q&#x301;" />
+			<when state="circumflex" output="Q&#x302;" />
+			<when state="tilde" output="Q&#x303;" />
+			<when state="diaeresis" output="Q&#x308;" />
+			<when state="ring" output="Q&#x30A;" />
+			<when state="macron" output="Q&#x304;" />
+			<when state="breve" output="Q&#x306;" />
+			<when state="overcomma" output="Q&#x313;" />
+			<when state="overdot" output="Q&#x307;" />
+			<when state="ogonek" output="Q&#x328;" />
+			<when state="double_grave" output="Q&#x30F;" />
+			<when state="double_acute" output="Q&#x30B;" />
+			<when state="caron" output="Q&#x30C;" />
+			<when state="hoi" output="Q&#x309;" />
+			<when state="bar" output="Q&#x335;" />
+			<when state="underbar" output="Q&#x331;" />
+			<when state="arch" output="Q&#x311;" />
+			<when state="undercomma" output="Q&#x326;" />
+			<when state="underdot" output="Q&#x323;" />
+		</action>
+		<action id="R">
+			<when state="none" output="R" />
+			<when state="space" output="&#x200F;" />
+			<when state="ligatures" next="ligatures_R" />
+			<when state="greek" output="&#x3A1;" />
+			<when state="s_greek" output="&#x3A1;" next="s_greek" />
+			<when state="currency" next="currency_r" />
+			<when state="currency_c" output="&#x20A2;" />
+			<when state="currency_f" output="&#x20A3;" />
+			<when state="cedilla" output="R&#x327;" />
+			<when state="grave" output="R&#x300;" />
+			<when state="acute" output="&#x154;" />
+			<when state="circumflex" output="R&#x302;" />
+			<when state="tilde" output="R&#x303;" />
+			<when state="diaeresis" output="R&#x308;" />
+			<when state="ring" output="R&#x30A;" />
+			<when state="macron" output="R&#x304;" />
+			<when state="breve" output="R&#x306;" />
+			<when state="overcomma" output="R&#x313;" />
+			<when state="overdot" output="&#x1E58;" />
+			<when state="ogonek" output="R&#x328;" />
+			<when state="double_grave" output="&#x210;" />
+			<when state="double_acute" output="R&#x30B;" />
+			<when state="caron" output="&#x158;" />
+			<when state="hoi" output="R&#x309;" />
+			<when state="bar" output="R&#x335;" />
+			<when state="underbar" output="&#x1E5E;" />
+			<when state="arch" output="&#x212;" />
+			<when state="undercomma" output="&#x156;" />
+			<when state="underdot" output="&#x1E5A;" />
+			<when state="symbols" output="&#xAE;" />
+			<when state="keyboard" output="&#x21A9;" />
+			<when state="s_keyboard" output="&#x21A9;" next="s_keyboard" />
+		</action>
+		<action id="sh_opt_r">
+			<when state="none" output="" />
+			<when state="space" output="&#x202E;" />
+		</action>
+		<action id="S">
+			<when state="none" output="S" />
+			<when state="ligatures" next="ligatures_S" />
+			<when state="ligatures_a" output="&#x2101;" />
+			<when state="ligatures_a_slash" output="&#x2101;" />
+			<when state="ligatures_A" output="&#x2101;" />
+			<when state="ligatures_A_slash" output="&#x2101;" />
+			<when state="greek" output="&#x3A3;" />
+			<when state="s_greek" output="&#x3A3;" next="s_greek" />
+			<when state="currency_r" output="&#x20A8;" />
+			<when state="currency_pt" output="&#x20A7;" />
+			<when state="cedilla" output="&#x15E;" />
+			<when state="grave" output="S&#x300;" />
+			<when state="acute" output="&#x15A;" />
+			<when state="circumflex" output="&#x15C;" />
+			<when state="tilde" output="S&#x303;" />
+			<when state="diaeresis" output="S&#x308;" />
+			<when state="ring" output="S&#x30A;" />
+			<when state="macron" output="S&#x304;" />
+			<when state="breve" output="S&#x306;" />
+			<when state="overcomma" output="S&#x313;" />
+			<when state="overdot" output="&#x1E60;" />
+			<when state="ogonek" output="S&#x328;" />
+			<when state="double_grave" output="S&#x30F;" />
+			<when state="double_acute" output="S&#x30B;" />
+			<when state="caron" output="&#x160;" />
+			<when state="hoi" output="S&#x309;" />
+			<when state="bar" output="S&#x335;" />
+			<when state="underbar" output="S&#x331;" />
+			<when state="arch" output="S&#x311;" />
+			<when state="undercomma" output="&#x218;" />
+			<when state="underdot" output="&#x1E62;" />
+			<when state="symbols" next="symbols_s" />
+			<when state="math" next="integral" />
+			<when state="integral" next="double_integral" />
+			<when state="double_integral" output="&#x222D;" />
+			<when state="keyboard" output="&#x21E7;" />
+			<when state="s_keyboard" output="&#x21E7;" next="s_keyboard" />
+		</action>
+		<action id="T">
+			<when state="none" output="T" />
+			<when state="greek" output="&#x3A4;" />
+			<when state="s_greek" output="&#x3A4;" next="s_greek" />
+			<when state="currency" next="currency_t" />
+			<when state="currency_p" next="currency_pt" />
+			<when state="space" output="&#x2009;" />
+			<when state="cedilla" output="&#x162;" />
+			<when state="grave" output="T&#x300;" />
+			<when state="acute" output="T&#x301;" />
+			<when state="circumflex" output="T&#x302;" />
+			<when state="tilde" output="T&#x303;" />
+			<when state="diaeresis" output="T&#x308;" />
+			<when state="ring" output="T&#x30A;" />
+			<when state="macron" output="T&#x304;" />
+			<when state="breve" output="T&#x306;" />
+			<when state="overcomma" output="T&#x313;" />
+			<when state="overdot" output="&#x1E6A;" />
+			<when state="ogonek" output="T&#x328;" />
+			<when state="double_grave" output="T&#x30F;" />
+			<when state="double_acute" output="T&#x30B;" />
+			<when state="caron" output="&#x164;" />
+			<when state="hoi" output="T&#x309;" />
+			<when state="bar" output="T&#x335;" />
+			<when state="underbar" output="&#x1E6E;" />
+			<when state="arch" output="T&#x311;" />
+			<when state="undercomma" output="&#x21A;" />
+			<when state="underdot" output="&#x1E6C;" />
+			<when state="symbols" next="symbols_T" />
+			<when state="dots" output="&#x2023;" />
+			<when state="keyboard" output="&#x21E4;" />
+			<when state="s_keyboard" output="&#x21E4;" next="s_keyboard" />
+		</action>
+		<action id="U">
+			<when state="none" output="U" />
+			<when state="ligatures_c" output="&#x2106;" />
+			<when state="ligatures_c_slash" output="&#x2106;" />
+			<when state="ligatures_C" output="&#x2106;" />
+			<when state="ligatures_C_slash" output="&#x2106;" />
+			<when state="greek" output="&#x3A5;" />
+			<when state="s_greek" output="&#x3A5;" next="s_greek" />
+			<when state="cedilla" output="U&#x327;" />
+			<when state="grave" output="&#xD9;" />
+			<when state="acute" output="&#xDA;" />
+			<when state="circumflex" output="&#xDB;" />
+			<when state="tilde" output="&#x168;" />
+			<when state="diaeresis" output="&#xDC;" />
+			<when state="ring" output="&#x16E;" />
+			<when state="macron" output="&#x16A;" />
+			<when state="breve" output="&#x16C;" />
+			<when state="overcomma" output="U&#x313;" />
+			<when state="overdot" output="U&#x307;" />
+			<when state="ogonek" output="&#x172;" />
+			<when state="double_grave" output="&#x214;" />
+			<when state="double_acute" output="&#x170;" />
+			<when state="caron" output="&#x1D3;" />
+			<when state="hoi" output="&#x1EE6;" />
+			<when state="bar" output="U&#x335;" />
+			<when state="underbar" output="U&#x331;" />
+			<when state="arch" output="&#x216;" />
+			<when state="undercomma" output="U&#x326;" />
+			<when state="underdot" output="&#x1EE4;" />
+			<when state="math" output="&#x222A;" />
+		</action>
+		<action id="sh_opt_u">
+			<when state="none" next="subscripts" />
+			<when state="subscripts" next="s_subscripts" />
+		</action>
+		<action id="V">
+			<when state="none" output="V" />
+			<when state="numerals" next="numerals_V" />
+			<when state="numerals_I" output="&#x2163;" />
+			<when state="cedilla" output="V&#x327;" />
+			<when state="grave" output="V&#x300;" />
+			<when state="acute" output="V&#x301;" />
+			<when state="circumflex" output="V&#x302;" />
+			<when state="tilde" output="&#x1E7C;" />
+			<when state="diaeresis" output="V&#x308;" />
+			<when state="ring" output="V&#x30A;" />
+			<when state="macron" output="V&#x304;" />
+			<when state="breve" output="V&#x306;" />
+			<when state="overcomma" output="V&#x313;" />
+			<when state="overdot" output="V&#x307;" />
+			<when state="ogonek" output="V&#x328;" />
+			<when state="double_grave" output="V&#x30F;" />
+			<when state="double_acute" output="V&#x30B;" />
+			<when state="caron" output="V&#x30C;" />
+			<when state="hoi" output="V&#x309;" />
+			<when state="bar" output="V&#x335;" />
+			<when state="underbar" output="V&#x331;" />
+			<when state="arch" output="V&#x311;" />
+			<when state="undercomma" output="V&#x326;" />
+			<when state="underdot" output="&#x1E7E;" />
+			<when state="math" output="&#xF7;" />
+		</action>
+		<action id="W">
+			<when state="none" output="W" />
+			<when state="greek" output="&#x3A6;" />
+			<when state="s_greek" output="&#x3A6;" next="s_greek" />
+			<when state="currency" next="currency_w" />
+			<when state="cedilla" output="W&#x327;" />
+			<when state="grave" output="&#x1E80;" />
+			<when state="acute" output="&#x1E82;" />
+			<when state="circumflex" output="&#x174;" />
+			<when state="tilde" output="W&#x303;" />
+			<when state="diaeresis" output="&#x1E84;" />
+			<when state="ring" output="W&#x30A;" />
+			<when state="macron" output="W&#x304;" />
+			<when state="breve" output="W&#x306;" />
+			<when state="overcomma" output="W&#x313;" />
+			<when state="overdot" output="&#x1E86;" />
+			<when state="ogonek" output="W&#x328;" />
+			<when state="double_grave" output="W&#x30F;" />
+			<when state="double_acute" output="W&#x30B;" />
+			<when state="caron" output="W&#x30C;" />
+			<when state="hoi" output="W&#x309;" />
+			<when state="bar" output="W&#x335;" />
+			<when state="underbar" output="W&#x331;" />
+			<when state="arch" output="W&#x311;" />
+			<when state="undercomma" output="W&#x326;" />
+			<when state="underdot" output="&#x1E88;" />
+		</action>
+		<action id="X">
+			<when state="none" output="X" />
+			<when state="ligatures_r" output="&#x211E;" />
+			<when state="ligatures_R" output="&#x211E;" />
+			<when state="greek" output="&#x3A7;" />
+			<when state="s_greek" output="&#x3A7;" next="s_greek" />
+			<when state="numerals" next="numerals_X" />
+			<when state="numerals_I" output="&#x2168;" />
+			<when state="cedilla" output="X&#x327;" />
+			<when state="grave" output="X&#x300;" />
+			<when state="acute" output="X&#x301;" />
+			<when state="circumflex" output="X&#x302;" />
+			<when state="tilde" output="X&#x303;" />
+			<when state="diaeresis" output="&#x1E8C;" />
+			<when state="ring" output="X&#x30A;" />
+			<when state="macron" output="X&#x304;" />
+			<when state="breve" output="X&#x306;" />
+			<when state="overcomma" output="X&#x313;" />
+			<when state="overdot" output="&#x1E8A;" />
+			<when state="ogonek" output="X&#x328;" />
+			<when state="double_grave" output="X&#x30F;" />
+			<when state="double_acute" output="X&#x30B;" />
+			<when state="caron" output="X&#x30C;" />
+			<when state="hoi" output="X&#x309;" />
+			<when state="bar" output="X&#x335;" />
+			<when state="underbar" output="X&#x331;" />
+			<when state="arch" output="X&#x311;" />
+			<when state="undercomma" output="X&#x326;" />
+			<when state="underdot" output="X&#x323;" />
+			<when state="math" output="&#xD7;" />
+			<when state="keyboard" output="&#x2327;" />
+			<when state="s_keyboard" output="&#x2327;" next="s_keyboard" />
+		</action>
+		<action id="Y">
+			<when state="none" output="Y" />
+			<when state="currency" output="&#xA5;" />
+			<when state="greek" output="&#x3A8;" />
+			<when state="s_greek" output="&#x3A8;" next="s_greek" />
+			<when state="cedilla" output="Y&#x327;" />
+			<when state="grave" output="&#x1EF2;" />
+			<when state="acute" output="&#xDD;" />
+			<when state="circumflex" output="&#x176;" />
+			<when state="tilde" output="&#x1EF8;" />
+			<when state="diaeresis" output="&#x178;" />
+			<when state="ring" output="Y&#x30A;" />
+			<when state="macron" output="&#x232;" />
+			<when state="breve" output="Y&#x306;" />
+			<when state="overcomma" output="Y&#x313;" />
+			<when state="overdot" output="&#x1E8E;" />
+			<when state="ogonek" output="Y&#x328;" />
+			<when state="double_grave" output="Y&#x30F;" />
+			<when state="double_acute" output="Y&#x30B;" />
+			<when state="caron" output="Y&#x30C;" />
+			<when state="hoi" output="&#x1EF6;" />
+			<when state="bar" output="Y&#x335;" />
+			<when state="underbar" output="Y&#x331;" />
+			<when state="arch" output="Y&#x311;" />
+			<when state="undercomma" output="Y&#x326;" />
+			<when state="underdot" output="&#x1EF4;" />
+		</action>
+		<action id="Z">
+			<when state="none" output="Z" />
+			<when state="greek" output="&#x396;" />
+			<when state="s_greek" output="&#x396;" next="s_greek" />
+			<when state="cedilla" output="Z&#x327;" />
+			<when state="grave" output="Z&#x300;" />
+			<when state="acute" output="&#x179;" />
+			<when state="circumflex" output="&#x1E90;" />
+			<when state="tilde" output="Z&#x303;" />
+			<when state="diaeresis" output="Z&#x308;" />
+			<when state="ring" output="Z&#x30A;" />
+			<when state="macron" output="Z&#x304;" />
+			<when state="breve" output="&#x17D;" />
+			<when state="overcomma" output="Z&#x313;" />
+			<when state="overdot" output="&#x17B;" />
+			<when state="ogonek" output="Z&#x328;" />
+			<when state="double_grave" output="Z&#x30F;" />
+			<when state="double_acute" output="Z&#x30B;" />
+			<when state="caron" output="Z&#x30C;" />
+			<when state="hoi" output="Z&#x309;" />
+			<when state="bar" output="Z&#x335;" />
+			<when state="underbar" output="&#x1E94;" />
+			<when state="arch" output="Z&#x311;" />
+			<when state="undercomma" output="Z&#x326;" />
+			<when state="underdot" output="&#x1E92;" />
+		</action>
+		
+		<!-- Number pad keys -->
+		<action id="num_0">
+			<when state="none" output="0" />
+			<when state="fractions" output="&#x2070;" next="s_superscripts" />
+			<when state="superscripts" output="&#x2070;" />
+			<when state="s_superscripts" output="&#x2070;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2080;" />
+			<when state="s_subscripts" output="&#x2080;" next="s_subscripts" />
+		</action>
+		<action id="opt_num0">
+			<when state="none" next="cedilla" />
+		</action>
+		<action id="sh_opt_num0">
+			<when state="none" next="ogonek" />
+		</action>
+		<action id="num_1">
+			<when state="none" output="1" />
+			<when state="fractions" next="fractions_1" />
+			<when state="fractions_1" output="&#xB9;&#xB9;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xB9;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_2" output="&#xB2;&#xB9;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_3" output="&#xB3;&#xB9;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_4" output="&#x2074;&#xB9;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#xB9;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#xB9;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2081;" next="s_subscripts" />
+			<when state="superscripts" output="&#xB9;" />
+			<when state="s_superscripts" output="&#xB9;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2081;" />
+			<when state="s_subscripts" output="&#x2081;" next="s_subscripts" />
+			<when state="keyboard" output="&#x2198;" />
+			<when state="s_keyboard" output="&#x2198;" next="s_keyboard" />
+			<when state="arrows" output="&#x2199;" />
+			<when state="arrows_down" output="&#x2936;" />
+			<when state="arrows_left" output="&#x2939;" />
+		</action>
+		<action id="sh_num_1">
+			<when state="none" output="1" />
+			<when state="arrows" output="&#x21D9;" />
+		</action>
+		<action id="opt_num1">
+			<when state="none" next="acute" />
+		</action>
+		<action id="sh_opt_num1">
+			<when state="none" next="double_acute" />
+		</action>
+		<action id="num_2">
+			<when state="none" output="2" />
+			<when state="fractions" next="fractions_2" />
+			<when state="fractions_1" output="&#xB9;&#xB2;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xBD;" />
+			<when state="fractions_2" output="&#xB2;&#xB2;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_3" output="&#xB3;&#xB2;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_4" output="&#x2074;&#xB2;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#xB2;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#xB2;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2082;" next="s_subscripts" />
+			<when state="superscripts" output="&#xB2;" />
+			<when state="s_superscripts" output="&#xB2;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2082;" />
+			<when state="s_subscripts" output="&#x2082;" next="s_subscripts" />
+			<when state="math" output="&#x221A;" />
+			<when state="keyboard" output="&#x21E3;" />
+			<when state="s_keyboard" output="&#x21E3;" next="s_keyboard" />
+			<when state="arrows" next="arrows_down" />
+			<when state="arrows_down" output="&#x21CA;" />
+			<when state="arrows_up" output="&#x2195;" />
+		</action>
+		<action id="sh_num_2">
+			<when state="none" output="2" />
+			<when state="arrows" next="arrows_double_down" />
+			<when state="arrows_double_up" output="&#x21D5;" />
+		</action>
+		<action id="opt_num2">
+			<when state="none" next="grave" />
+			<when state="arrows_up" output="&#x21C5;" />
+			<when state="arrows" next="harpoon_down_barb_left" />
+			<when state="harpoon_up_barb_left" output="&#x296E;" />
+			<when state="harpoon_up_barb_right" output="&#x296E;" />
+		</action>
+		<action id="sh_opt_num2">
+			<when state="none" next="double_grave" />
+			<when state="arrows" next="harpoon_down_barb_right" />
+			<when state="harpoon_up_barb_right" output="&#x269F;" />
+			<when state="harpoon_up_barb_left" output="&#x269F;" />
+		</action>
+		<action id="num_3">
+			<when state="none" output="3" />
+			<when state="fractions" next="fractions_3" />
+			<when state="fractions_1" output="&#xB9;&#xB3;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x2153;" />
+			<when state="fractions_2" output="&#xB2;&#xB3;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#x2154;" />
+			<when state="fractions_3" output="&#xB3;&#xB3;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="fractions_4" output="&#x2074;&#xB3;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#xB3;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#xB3;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2083;" next="s_subscripts" />
+			<when state="superscripts" output="&#xB3;" />
+			<when state="s_superscripts" output="&#xB3;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2083;" />
+			<when state="s_subscripts" output="&#x2083;" next="s_subscripts" />
+			<when state="math" output="&#x221B;" />
+			<when state="keyboard" output="&#x21DF;" />
+			<when state="s_keyboard" output="&#x21DF;" next="s_keyboard" />
+			<when state="arrows" output="&#x2198;" />
+			<when state="arrows_down" output="&#x2937;" />
+			<when state="arrows_right" output="&#x2935;" />
+		</action>
+		<action id="sh_num_3">
+			<when state="none" output="3" />
+			<when state="arrows" output="&#x21D8;" />
+		</action>
+		<action id="opt_num3">
+			<when state="none" next="circumflex" />
+		</action>
+		<action id="sh_opt_num3">
+			<when state="none" next="caron" />
+		</action>
+		<action id="num_4">
+			<when state="none" output="4" />
+			<when state="fractions" next="fractions_4" />
+			<when state="fractions_1" output="&#xB9;&#xB3;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xBC;" />
+			<when state="fractions_2" output="&#xB2;&#x2074;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="fractions_3" output="&#xB3;&#x2074;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xBE;" />
+			<when state="fractions_4" output="&#x2074;&#x2074;" next="s_superscripts" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="fractions_5" output="&#x2075;&#x2074;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#x2074;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2084;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2074;" />
+			<when state="s_superscripts" output="&#x2074;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2084;" />
+			<when state="s_subscripts" output="&#x2084;" next="s_subscripts" />
+			<when state="math" output="&#x221C;" />
+			<when state="keyboard" output="&#x21E0;" />
+			<when state="s_keyboard" output="&#x21E0;" next="s_keyboard" />
+			<when state="arrows" next="arrows_left" />
+			<when state="arrows_left" output="&#x21C7;" />
+			<when state="arrows_right" output="&#x2194;" />
+			<when state="arrows_up" output="&#x21B0;" />
+			<when state="arrows_down" output="&#x21B2;" />
+			<when state="arrows_double_right" output="&#x21D4;" />
+			<when state="harpoon_right_barb_down" output="&#x21CC;" />
+			<when state="harpoon_right_barb_up" output="&#x21CC;" />
+		</action>
+		<action id="sh_num_4">
+			<when state="none" output="4" />
+			<when state="arrows" next="arrows_double_left" />
+			<when state="arrows_double_right" output="&#x21D4;" />
+		</action>
+		<action id="opt_num4">
+			<when state="none" next="tilde" />
+			<when state="arrows" next="harpoon_left_barb_up" />
+			<when state="arrows_right" output="&#x21C4;" />
+		</action>
+		<action id="sh_opt_num4">
+			<when state="none" next="hoi" />
+			<when state="arrows" next="harpoon_left_barb_down" />
+			<when state="harpoon_right_barb_down" output="&#x21CB;" />
+			<when state="harpoon_right_barb_up" output="&#x21CB;" />
+		</action>
+		<action id="num_5">
+			<when state="none" output="5" />
+			<when state="fractions" next="fractions_5" />
+			<when state="fractions_1" output="&#xB9;&#x2075;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x2155;" />
+			<when state="fractions_2" output="&#xB2;&#x2075;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#x2156;" />
+			<when state="fractions_3" output="&#xB3;&#x2075;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#x2157;" />
+			<when state="fractions_4" output="&#x2158;" />
+			<when state="fractions_4_slash" output="&#x2158;" />
+			<when state="fractions_5" output="&#x2075;&#x2075;" next="s_superscripts" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2085;" next="s_subscripts" />
+			<when state="fractions_7" output="&#x2077;&#x2075;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2085;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2075;" />
+			<when state="s_superscripts" output="&#x2075;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2085;" />
+			<when state="s_subscripts" output="&#x2085;" next="s_subscripts" />
+			<when state="arrows" output="&#x21BB;" />
+		</action>
+		<action id="opt_num5">
+			<when state="none" next="diaeresis" />
+			<when state="arrows" output="&#x21BA;" />
+		</action>
+		<action id="sh_opt_num5">
+			<when state="none" next="bar" />
+		</action>
+		<action id="num_6">
+			<when state="none" output="6" />
+			<when state="fractions" output="&#x2076;" next="s_superscripts" />
+			<when state="fractions_1" output="&#xB9;&#x2076;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x2159;" />
+			<when state="fractions_2" output="&#xB2;&#x2076;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2086;" />
+			<when state="fractions_3" output="&#xB3;&#x2076;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2086;" />
+			<when state="fractions_4" output="&#x2074;&#x2076;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2086;" />
+			<when state="fractions_5" output="&#x2075;&#x2076;" />
+			<when state="fractions_5_slash" output="&#x215A;" />
+			<when state="fractions_7" output="&#x2077;&#x2076;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2086;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2076;" />
+			<when state="s_superscripts" output="&#x2076;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2086;" />
+			<when state="s_subscripts" output="&#x2086;" next="s_subscripts" />
+			<when state="keyboard" output="&#x21E2;" />
+			<when state="s_keyboard" output="&#x21E2;" next="s_keyboard" />
+			<when state="arrows" next="arrows_right" />
+			<when state="arrows_right" output="&#x21C9;" />
+			<when state="arrows_left" output="&#x2194;" />
+			<when state="arrows_up" output="&#x21B1;" />
+			<when state="arrows_down" output="&#x21B3;" />
+			<when state="arrows_double_left" output="&#x21D4;" />
+			<when state="harpoon_left_barb_up" output="&#x21CB;" />
+			<when state="harpoon_left_barb_down" output="&#x21CB;" />
+		</action>
+		<action id="sh_num_6">
+			<when state="none" output="6" />
+			<when state="arrows" next="arrows_double_right" />
+			<when state="arrows_double_left" output="&#x21D4;" />
+		</action>
+		<action id="opt_num6">
+			<when state="none" next="ring" />
+			<when state="arrows" next="harpoon_right_barb_up" />
+			<when state="arrows_left" output="&#x21C6;" />
+		</action>
+		<action id="sh_opt_num6">
+			<when state="none" next="ring" />
+			<when state="arrows" next="harpoon_right_barb_down" />
+			<when state="harpoon_left_barb_up" output="&#x21CB;" />
+			<when state="harpoon_left_barb_down" output="&#x21CB;" />
+		</action>
+		<action id="num_7">
+			<when state="none" output="7" />
+			<when state="fractions" next="fractions_7" />
+			<when state="fractions_1" output="&#xB9;&#x2077;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xB9;&#x2044;&#x2087;" />
+			<when state="fractions_2" output="&#xB2;&#x2077;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2087;" />
+			<when state="fractions_3" output="&#xB3;&#x2077;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2087;" />
+			<when state="fractions_4" output="&#x2074;&#x2077;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2087;" />
+			<when state="fractions_5" output="&#x2075;&#x2077;" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2087;" />
+			<when state="fractions_7" output="&#x2077;&#x2077;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2087;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2077;" />
+			<when state="s_superscripts" output="&#x2077;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2087;" />
+			<when state="s_subscripts" output="&#x2087;" next="s_subscripts" />
+			<when state="keyboard" output="&#x2196;" />
+			<when state="s_keyboard" output="&#x2196;" next="s_keyboard" />
+			<when state="arrows" output="&#x2196;" />
+			<when state="arrows_up" output="&#x293A;" />
+		</action>
+		<action id="sh_num_7">
+			<when state="none" output="7" />
+			<when state="arrows" output="&#x21D6;" />
+		</action>
+		<action id="opt_num7">
+			<when state="none" next="macron" />
+		</action>
+		<action id="sh_opt_num7">
+			<when state="none" next="underbar" />
+		</action>
+		<action id="num_8">
+			<when state="none" output="8" />
+			<when state="fractions" output="&#x2078;" next="s_superscripts" />
+			<when state="fractions_1" output="&#xB9;&#x2078;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#x215B;" />
+			<when state="fractions_2" output="&#xB2;&#x2078;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2088;" />
+			<when state="fractions_3" output="&#xB3;&#x2078;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#x215C;" />
+			<when state="fractions_4" output="&#x2074;&#x2078;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2088;" />
+			<when state="fractions_5" output="&#x2075;&#x2078;" />
+			<when state="fractions_5_slash" output="&#x215D;" />
+			<when state="fractions_7" output="&#x2077;&#x2078;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x215E;" />
+			<when state="superscripts" output="&#x2078;" />
+			<when state="s_superscripts" output="&#x2078;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2088;" />
+			<when state="s_subscripts" output="&#x2088;" next="s_subscripts" />
+			<when state="math" output="&#x221E;" />
+			<when state="keyboard" output="&#x21E1;" />
+			<when state="s_keyboard" output="&#x21E1;" next="s_keyboard" />
+			<when state="arrows" next="arrows_up" />
+			<when state="arrows_up" output="&#x21C8;" />
+			<when state="arrows_down" output="&#x2195;" />
+		</action>
+		<action id="sh_num_8">
+			<when state="none" output="8" />
+			<when state="arrows" next="arrows_double_up" />
+			<when state="arrows_double_down" output="&#x21D5;" />
+		</action>
+		<action id="opt_num8">
+			<when state="none" next="breve" />
+			<when state="arrows_down" output="&#x21C5;" />
+			<when state="arrows" next="harpoon_up_barb_left" />
+			<when state="harpoon_down_barb_right" output="&#x269F;" />
+			<when state="harpoon_down_barb_left" output="&#x269F;" />
+		</action>
+		<action id="sh_opt_num8">
+			<when state="none" next="arch" />
+			<when state="arrows" next="harpoon_up_barb_right" />
+			<when state="harpoon_down_barb_right" output="&#x269F;" />
+			<when state="harpoon_down_barb_left" output="&#x269F;" />
+		</action>
+		<action id="num_9">
+			<when state="none" output="9" />
+			<when state="fractions" output="&#x2079;" next="s_superscripts" />
+			<when state="fractions_1" output="&#xB9;&#x2079;" next="s_superscripts" />
+			<when state="fractions_1_slash" output="&#xB9;&#x2044;&#x2089;" />
+			<when state="fractions_2" output="&#xB2;&#x2079;" next="s_superscripts" />
+			<when state="fractions_2_slash" output="&#xB2;&#x2044;&#x2089;" />
+			<when state="fractions_3" output="&#xB3;&#x2079;" next="s_superscripts" />
+			<when state="fractions_3_slash" output="&#xB3;&#x2044;&#x2089;" />
+			<when state="fractions_4" output="&#x2074;&#x2079;" />
+			<when state="fractions_4_slash" output="&#x2074;&#x2044;&#x2089;" />
+			<when state="fractions_5" output="&#x2075;&#x2079;" />
+			<when state="fractions_5_slash" output="&#x2075;&#x2044;&#x2089;" />
+			<when state="fractions_7" output="&#x2077;&#x2079;" next="s_superscripts" />
+			<when state="fractions_7_slash" output="&#x2077;&#x2044;&#x2089;" next="s_subscripts" />
+			<when state="superscripts" output="&#x2079;" />
+			<when state="s_superscripts" output="&#x2079;" next="s_superscripts" />
+			<when state="subscripts" output="&#x2089;" />
+			<when state="s_subscripts" output="&#x2089;" next="s_subscripts" />
+			<when state="keyboard" output="&#x21DE;" />
+			<when state="s_keyboard" output="&#x21DE;" next="s_keyboard" />
+			<when state="arrows" output="&#x2197;" />
+		</action>
+		<action id="sh_num_9">
+			<when state="none" output="9" />
+			<when state="arrows" output="&#x21D7;" />
+		</action>
+		<action id="opt_num9">
+			<when state="none" next="overcomma" />
+		</action>
+		<action id="sh_opt_num9">
+			<when state="none" next="undercomma" />
+		</action>
+		<action id="num_equals">
+			<when state="none" output="=" />
+			<when state="math" output="&#x2248;" />
+		</action>
+		<action id="sh_num_equals">
+			<when state="none" output="=" />
+			<when state="math" output="&#x2248;" />
+		</action>
+		<action id="opt_num_equals">
+			<when state="none" output="&#x2260;" />
+		</action>
+		<action id="sh_opt_num_equals">
+			<when state="none" output="&#x2248;" />
+			<when state="math" output="&#x2248;" />
+		</action>
+		<action id="num_slash">
+			<when state="none" output="/" />
+			<when state="fractions" output="&#x2044;" />
+			<when state="fractions_1" output="&#x2044;" />
+			<when state="fractions_2" output="&#x2044;" />
+			<when state="fractions_3" output="&#x2044;" />
+			<when state="fractions_4" output="&#x2044;" />
+			<when state="fractions_5" output="&#x2044;" />
+			<when state="fractions_7" output="&#x2044;" />
+			<when state="superscripts" output="&#x2044;" />
+			<when state="s_superscripts" output="&#x2044;" />
+			<when state="subscripts" output="&#x2044;" />
+			<when state="s_subscripts" output="&#x2044;" />
+			<when state="math" output="&#xF7;" />
+		</action>
+		<action id="sh_opt_num_slash">
+			<when state="none" output="&#x2044;" />
+			<when state="math" output="&#x2044;" />
+		</action>
+		<action id="num_asterisk">
+			<when state="none" output="*" />
+			<when state="math" output="&#xD7;" />
+		</action>
+		<action id="opt_num_asterisk">
+			<when state="none" output="&#xD7;" />
+			<when state="math" output="&#x22C5;" />
+		</action>
+		<action id="sh_opt_num_asterisk">
+			<when state="none" output="&#x22C5;" />
+			<when state="math" output="&#x22C5;" />
+		</action>
+		<action id="num_minus">
+			<when state="none" output="-" />
+			<when state="math" output="&#x2212;" />
+		</action>
+		<action id="num_plus">
+			<when state="none" output="+" />
+			<when state="math" output="&#xB1;" />
+		</action>
+		<action id="opt_num_period">
+			<when state="none" next="overdot" />
+		</action>
+		<action id="sh_opt_num_period">
+			<when state="none" next="underdot" />
+		</action>
+	</actions>
+	<terminators>
+		<when state="greek" output="&#x3B1;" />
+		<when state="s_greek" output="" />
+		<when state="ligatures" output="&#xDF;" />
+		<when state="ligatures_a" output="a" />
+		<when state="ligatures_A" output="A" />
+		<when state="ligatures_a_slash" output="a/" />
+		<when state="ligatures_A_slash" output="A/" />
+		<when state="ligatures_c" output="c" />
+		<when state="ligatures_C" output="C" />
+		<when state="ligatures_c_slash" output="c/" />
+		<when state="ligatures_C_slash" output="C/" />
+		<when state="ligatures_i" output="i" />
+		<when state="ligatures_I" output="I" />
+		<when state="ligatures_f" output="f" />
+		<when state="ligatures_ff" output="&#xFB00;" />
+		<when state="ligatures_l" output="l" />
+		<when state="ligatures_L" output="L" />
+		<when state="ligatures_n" output="n" />
+		<when state="ligatures_N" output="N" />
+		<when state="ligatures_o" output="o" />
+		<when state="ligatures_O" output="O" />
+		<when state="ligatures_p" output="p" />
+		<when state="ligatures_P" output="P" />
+		<when state="ligatures_r" output="r" />
+		<when state="ligatures_R" output="R" />
+		<when state="ligatures_s" output="s" />
+		<when state="ligatures_S" output="S" />
+		<when state="ligatures_long_s" output="&#x17f;" />
+		<when state="ligatures_t" output="t" />
+		<when state="ligatures_T" output="T" />
+		<when state="currency" output="&#xA2;" />
+		<when state="currency_c" output="&#xA2;" />
+		<when state="currency_c_slash" output="&#x20A1;" />
+		<when state="currency_d" output="&#x20AB;" />
+		<when state="currency_D" output="&#x20AA;" />
+		<when state="currency_f" output="&#x20A3;" />
+		<when state="currency_k" output="&#x20AD;" />
+		<when state="currency_m" output="&#x20A5;" />
+		<when state="currency_n" output="&#x20A6;" />
+		<when state="currency_n_hyphen" output="&#x20A6;" />
+		<when state="currency_p" output="&#xA3;" />
+		<when state="currency_pt" output="&#x20A7;" />
+		<when state="currency_p_hyphen" output="&#x20B1;" />
+		<when state="currency_r" output="&#x20A8;" />
+		<when state="currency_t" output="&#x20AE;" />
+		<when state="currency_t_slash" output="&#x20AE;" />
+		<when state="currency_w" output="&#x20A9;" />
+		<when state="currency_w_hyphen" output="&#x20A9;" />
+		<when state="numerals" output="&#x2170;" />
+		<when state="numerals_i" output="&#x2170;" />
+		<when state="numerals_ii" output="&#x2171;" />
+		<when state="numerals_iii" output="&#x2172;" />
+		<when state="numerals_v" output="&#x2174;" />
+		<when state="numerals_vi" output="&#x2175;" />
+		<when state="numerals_vii" output="&#x2176;" />
+		<when state="numerals_x" output="&#x2179;" />
+		<when state="numerals_xi" output="&#x217A;" />
+		<when state="numerals_l" output="&#x217C;" />
+		<when state="numerals_c" output="&#x217D;" />
+		<when state="numerals_d" output="&#x217E;" />
+		<when state="numerals_m" output="&#x217F;" />
+		<when state="numerals_I" output="&#x2160;" />
+		<when state="numerals_II" output="&#x2161;" />
+		<when state="numerals_III" output="&#x2162;" />
+		<when state="numerals_V" output="&#x2164;" />
+		<when state="numerals_VI" output="&#x2165;" />
+		<when state="numerals_VII" output="&#x2166;" />
+		<when state="numerals_X" output="&#x2169;" />
+		<when state="numerals_XI" output="&#x216A;" />
+		<when state="numerals_L" output="&#x216C;" />
+		<when state="numerals_C" output="&#x216D;" />
+		<when state="numerals_D" output="&#x216E;" />
+		<when state="numerals_M" output="&#x216F;" />
+		<when state="fractions" output="&#x2044;" />
+		<when state="fractions_1" output="&#xB9;" />
+		<when state="fractions_1_slash" output="&#x215F;" />
+		<when state="fractions_2" output="&#xB2;" />
+		<when state="fractions_2_slash" output="&#xB2;&#x2044;" />
+		<when state="fractions_3" output="&#xB3;" />
+		<when state="fractions_3_slash" output="&#xB3;&#x2044;" />
+		<when state="fractions_4" output="&#x2074;" />
+		<when state="fractions_4_slash" output="&#x2074;&#x2044;" />
+		<when state="fractions_5" output="&#x2075;" />
+		<when state="fractions_5_slash" output="&#x2075;&#x2044;" />
+		<when state="fractions_7" output="&#x2077;" />
+		<when state="fractions_7_slash" output="&#x2077;&#x2044;" />
+		<when state="superscripts" output="&#xB2;" />
+		<when state="s_superscripts" output="" />
+		<when state="subscripts" output="&#x2081;" />
+		<when state="s_subscripts" output="" />
+		<when state="space" output="&#xA0;" />
+		<when state="cedilla" output="&#x327;" />
+		<when state="grave" output="&#x300;" />
+		<when state="acute" output="&#x301;" />
+		<when state="circumflex" output="&#x302;" />
+		<when state="tilde" output="&#x303;" />
+		<when state="diaeresis" output="&#x308;" />
+		<when state="ring" output="&#x30A;" />
+		<when state="macron" output="&#x304;" />
+		<when state="breve" output="&#x306;" />
+		<when state="overcomma" output="&#x313;" />
+		<when state="overdot" output="&#x307;" />
+		<when state="ogonek" output="&#x328;" />
+		<when state="double_grave" output="&#x30F;" />
+		<when state="double_acute" output="&#x30B;" />
+		<when state="caron" output="&#x30C;" />
+		<when state="hoi" output="&#x309;" />
+		<when state="bar" output="&#x335;" />
+		<when state="underbar" output="&#x331;" />
+		<when state="arch" output="&#x311;" />
+		<when state="undercomma" output="&#x326;" />
+		<when state="underdot" output="&#x323;" />
+		<when state="dashes" output="&#x2013;" />
+		<when state="symbols" output="&#xA9;" />
+		<when state="symbols_c" output="&#xA9;" />
+		<when state="symbols_n" output="&#x2116;" />
+		<when state="symbols_p" output="&#xB6;" />
+		<when state="symbols_P" output="&#x204B;" />
+		<when state="symbols_s" output="&#xA7;" />
+		<when state="symbols_t" output="&#x2020;" />
+		<when state="symbols_T" output="&#x2021;" />
+		<when state="ligatures_exclamation" output="!" />
+		<when state="ligatures_question" output="?" />
+		<when state="quotes" output="&#x2019;" />
+		<when state="prime" output="&#x2032;" />
+		<when state="double_prime" output="&#x2033;" />
+		<when state="triple_prime" output="&#x2034;" />
+		<when state="dots" output="&#x2022;" />
+		<when state="single_dot_leader" output="&#x2024;" />
+		<when state="two_dot_leader" output="&#x2025;" />
+		<when state="math" output="&#x2260;" />
+		<when state="integral" output="&#x222B;" />
+		<when state="double_integral" output="&#x222C;" />
+		<when state="keyboard" output="&#x2318;" />
+		<when state="s_keyboard" output="" />
+		<when state="arrows" output="&#x2192;" />
+		<when state="arrows_up" output="&#x2191;" />
+		<when state="arrows_down" output="&#x2193;" />
+		<when state="arrows_left" output="&#x2190;" />
+		<when state="arrows_right" output="&#x2192;" />
+		<when state="arrows_double_up" output="&#x21D1;" />
+		<when state="arrows_double_down" output="&#x21D3;" />
+		<when state="arrows_double_left" output="&#x21D0;" />
+		<when state="arrows_double_right" output="&#x21D2;" />
+		<when state="harpoon_left_barb_up" output="&#x21BC;" />
+		<when state="harpoon_left_barb_down" output="&#x21BD;" />
+		<when state="harpoon_right_barb_down" output="&#x21C1;" />
+		<when state="harpoon_right_barb_up" output="&#x21C0;" />
+		<when state="harpoon_up_barb_left" output="&#x21BF;" />
+		<when state="harpoon_up_barb_right" output="&#x21BE;" />
+		<when state="harpoon_down_barb_right" output="&#x21C2;" />
+		<when state="harpoon_down_barb_left" output="&#x21C3;" />
+	</terminators>
+</keyboard>
