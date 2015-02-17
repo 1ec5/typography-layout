@@ -1,0 +1,5 @@
+# typography-layout
+Typography is a keyboard layout for OS X that places at your fingertips all the characters that a typographically-minded person could ever want. It was created by @morganiq in 2005. Morgan’s old blog has [more information](http://web.archive.org/web/20080706014811/http://doocy.net/typography-keylayout/) and a [handy key mapping](http://web.archive.org/web/20080706015950/http://doocy.net/typography-keylayout/mappings/). Typography is not to be confused with the [similarly-named keyboard layout](http://ilyabirman.ru/projects/typography-layout/) by Ilya Birman or [this variant](https://github.com/sashka/mac-typography).
+
+## Install
+Unzip [the latest release](https://github.com/1ec5/typography-layout/releases/latest/) and place Typography.bundle in `~/Library/Keyboard Layouts/` (for just yourself) or `/Library/Keyboard Layouts/` (to share with other users). To enable Typography, open the Keyboard pane in System Preferences, go to the Input Sources tab, and press the + button. You can find Typography under the “English” section.
